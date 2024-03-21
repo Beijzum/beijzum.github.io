@@ -7,3 +7,13 @@ theme:
         - navigation.sections
         - navigation.expand
         - navigation.path
+    palette:
+        primary: blue
+        accent: purple
+
+# extra_css: [style.css] in case we want to add extra css
+
+markdown_extensions:
+    - def_list
+    - pymdownx.tasklist:
+        custom_checkbox: true
