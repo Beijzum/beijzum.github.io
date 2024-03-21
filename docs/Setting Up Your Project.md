@@ -1,9 +1,10 @@
 ## Overview
 This section will focus on setting up a local projects folder using the terminal.
 
+**Note:** The terms command prompt and terminal are interchangable, as Windows calls the terminal "command prompt". Moving forward, all references to terminal for Windows Machines is synonymous with command prompt.
 
-## Opening Command Prompt
-This section will focus on how to open command prompt on Windows machines, and the terminal Mac, and Linux Machines.
+## Opening the Terminal
+This section will focus on how to open terminal on Windows machines, Mac, and Linux Machines.
 
 ##### For Windows Users
 1. Click on the Windows icon on the bottom left of your screen
@@ -23,23 +24,58 @@ A terminal as should open after pressing these keys as shown below
 
 ![terminal for Mac](./assets/setupS2M.png)
 
+## Check Python on Machine
+This section will focus on ensuring Python is installed on your machine.
+
+4. Check python version in the terminal using one of the two commands below
+> python --version
+>
+> python3 --version
+
+    a. If Python is installed on your machine, then the terminal should display the version of Python that is installed, as shown in the image below.
+    
+    ![python installed](./assets/setupS4aW.png)
+
+    b. If running command resulted in an error message similar to the likes shown below, then Python is not installed on your machine. 
+    
+    ![python not installed](./assets/setupS4bW.png)
+    
+    c. If your machine does not have Python, then download any 3.x version of Python [here](https://www.python.org/downloads/), the Python installation wizard will guide you through the process.
+
 ## Navigating Directories
 This section will focus on how to navigate file directories
 
-**Note** The terms command prompt and terminal are interchangable, as Windows calls the terminal "command prompt". Moving forward, all references to terminal for Windows Machines is synonymous to command prompt.
-
 ##### For Windows Users
-1. List all directories
+5. List all directories
 > dir
 
-Choose a directory that you want to put your project folder into
+    a. Choose a directory that you want to put your project folder into
 
-2. Navigate to the chosen directory
+6. Navigate to the chosen directory
 > cd directory_name
+   
+    a. directory_name is a filler name, replace it with any directory that is listed when you typed "dir" back in step 5
 
-If the directory you chose has sub directories, repeat steps 1 and 2 until you are in the directory you want.
+    b. If the directory you chose has sub directories, repeat steps 1 and 2 until you are in the directory you wish for your project to reside in.
 
-3. 
+## Create Project Folder
+
+7. Make the projects folder
+> mkdir rock_paper_scissor
+
+**Note:** The project name rock_paper_scissor can be replaced with any project name of your choice, for the purposes of the demo we will use the name rock_paper_scissor. Any subsequent steps that use the rock_paper_scissor can be replaced with whatever name you have chosen, as long as the name is the exactly same throughout. 
+
+8. Move into the created folder
+> cd rock_paper_scissor
+
+9. Create source code file
+> notepad rock_paper_scissor.py
+
+    a. If you have used your own project name, ensure that the name has the .py extension at the end. Excluding it will result in any code written the file to not run.
+
+10. Click "Yes" when prompted to create a new file
+
+![create file prompt](./assets/setupS6W.PNG)
 
 
 ##### For Linux Users
@@ -47,4 +83,15 @@ If the directory you chose has sub directories, repeat steps 1 and 2 until you a
 ##### For Mac Users
 
 
-## Create Project Folder
+## Conclusion
+By the end of this section, you will have successfully completed the following using only the terminal:
+
+- [x] Opening the terminal
+- [x] Navigate through file directories
+- [x] Created a folder to house projects
+- [x] Populate folders with empty files
+
+The next section will focus on coding the game itself, click on the link below.
+
+
+[Writing Your First Game](./Writing%20Your%20First%20Game.md)
