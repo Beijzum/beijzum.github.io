@@ -1,6 +1,6 @@
 site_name: User Documentation Project JJ
 theme:
-    name: mkdocs
+    name: material
     features:
         - navigation.tabs
         - navigation.tabs.sticky
