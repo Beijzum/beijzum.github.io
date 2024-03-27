@@ -1,14 +1,24 @@
 # Introduction
 
-Welcome. This documentation will help you create a simple Python game. It will also help you upload your Python project to GitHub. The goal is to help beginner-level software developers get started on their coding journey.
+Welcome. This documentation will help you create a simple Python game on a Windows operating system. It will also help you upload your Python project to GitHub. The goal is to help beginner-level software developers get started on their coding journey.
 
+> Python
+>
+> GitHub
 
-
-
-
-## Intended Readers
+## Intended Users
 
 This guide is targeted towards new software developers. (elaborate)
+
+## Prerequisite Knowledge
+
+## Software Requirements
+
+## Procedures Overview
+
+## Typographical Conventions
+
+---
 
 ## Commands
 
