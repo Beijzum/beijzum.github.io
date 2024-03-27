@@ -51,3 +51,11 @@ markdown_extensions:
     - pymdownx.emoji:
           emoji_index: !!python/name:material.extensions.emoji.twemoji
           emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+    - index.md
+    - Setting Up Your Project.md
+    - Writing Your First Game.md
+    - Upload to GitHub.md
+    - Troubleshooting.md
+    - glossary.md
