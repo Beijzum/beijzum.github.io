@@ -1,6 +1,10 @@
 # Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome. This documentation will help you setup a Python project on GitHub
+
+## Intended Users
+
+This guide is targeted towards new software developers. (elaborate)
 
 ## Commands
 
