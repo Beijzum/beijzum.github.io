@@ -1,28 +1,15 @@
 ## Overview
 This section will focus on setting up a local projects folder using the terminal.
 
-**Note:** The terms command prompt and terminal are interchangable, as Windows calls the terminal "command prompt". Moving forward, all references to terminal for Windows Machines is synonymous with command prompt.
+**Note:** The terms command prompt and terminal are interchangable, as Windows calls the terminal "command prompt". However, most developers use the term terminal, so we will be using the term terminal in this tutorial in preparation for your computer science degree.
 
 ## Opening the Terminal
 This section will focus on how to open terminal on Windows machines, Mac, and Linux Machines.
 
-##### For Windows Users
 1. Click on the Windows icon on the bottom left of your screen
 2. Type "cmd" into the search bar and click on the option shown below
 
-![terminal for Windows](./assets/setupS2W.png)
-
-##### For Linux Users
-1. Press Ctrl + Alt + T keys on your keyboard simultaneously
-
-A terminal as should open after pressing these keys as shown below
-
-![terminal for Linux](./assets/setupS2L.png)
-
-##### For Mac Users
-#### IDK ABT MAC, GET SOMEONE ELSE TO DO THIS PART
-
-![terminal for Mac](./assets/setupS2M.png)
+![terminal for Windows](./assets/setupS2.png)
 
 ## Check Python on Machine
 This section will focus on ensuring Python is installed on your machine.
@@ -45,7 +32,6 @@ This section will focus on ensuring Python is installed on your machine.
 ## Navigating Directories
 This section will focus on how to navigate file directories
 
-##### For Windows Users
 5. List all directories
 > dir
 
@@ -75,13 +61,7 @@ This section will focus on how to navigate file directories
 
 10. Click "Yes" when prompted to create a new file
 
-![create file prompt](./assets/setupS6W.PNG)
-
-
-##### For Linux Users
-
-##### For Mac Users
-
+![create file prompt](./assets/setupS6.PNG)
 
 ## Conclusion
 By the end of this section, you will have successfully completed the following using only the terminal:
