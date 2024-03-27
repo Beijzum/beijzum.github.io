@@ -96,7 +96,7 @@ import random
 options = ("rock", "paper", "scissor")
 user_input = input("Rock, paper, scissor? ").lower()
 computer_choice = random.choice(options)
-printf(f"Computer chooses {computer_choice}")
+print(f"Computer chooses {computer_choice}")
 
 if user_input not in options:
     print("Funny error message here.")
@@ -124,7 +124,10 @@ else:
 **WARNING:** Ensure that you are in the directory. If you did not close the terminal from the previous section, you should still be in the proper directory. If you closed the terminal, refer back to "Setting Up Your Project" under the "Navigating Directories" section, and repeat steps 1 and 2 again until you have reached the projects folder.
 
 15. Enjoy your game!
-    a. The terminal should start running the game.
+
+    a. If everything is correct, the terminal should look like the image below.
+
+    ![terminal for game](./assets/codeS15a.png)
 
 **Note:** If your code does not run, double check it matches exactly as shown, with extra emphasis on the indentation. Python uses indentation as its reference to know when blocks of code end and where they begin. Misaligning the indentations will result in the program working.
 
@@ -138,4 +141,4 @@ By the end of this section, you will have successfully implemented the following
 
 The next section will focus on uploading your project onto GitHub, click the link below.
 
-[Writing Your First Game](./Writing%20Your%20First%20Game.md)
+[Uploading to GitHub](Upload%20to%20GitHub.md)
