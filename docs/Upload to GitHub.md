@@ -34,7 +34,7 @@ This section focuses on creating an online repository for you to upload your pro
 
     ![enter repository name](./assets/uploadS5.png)
 
-    a. If you changed your projects folder is not rock_paper_scissor, enter the name you used instead.
+    a. If your project folder name is not rock_paper_scissors, enter the name you used instead.
 
 6. Click create repository
 
@@ -42,7 +42,7 @@ This section focuses on creating an online repository for you to upload your pro
 
 **Note:** Advanced users can choose customize their repository settings, for the purposes of the tutorial we will leave everything to default.
 
-## Connecting Local Repository to Online
+## Connecting Local Repository to Cloud
 
 This section focuses on connecting your local .git folder to the online GitHub repostiory.
 
