@@ -8,6 +8,11 @@ theme:
         - content.code.copy
         - content.code.select
         - toc.integrate
+
+    plugins:
+        - search
+        - inline-svg
+
     palette:
         - media: "(prefers-color-scheme)"
           toggle:

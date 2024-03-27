@@ -2,9 +2,9 @@
 
 Welcome. This documentation will help you create a simple Python game on a Windows operating system. It will also help you upload your Python project to GitHub. The goal is to help beginner-level software developers get started on their coding journey.
 
-> Python
+> ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is a high-level programming level, which means it is easy to read and understand for humans.
 >
-> GitHub
+> ![GitHubIcon](./assets/github_icon_small.png) [GitHub](https://github.com/) is a developer platform that allows developers to create, store, manage, and share their code.
 
 ## Intended Users
 
