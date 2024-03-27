@@ -28,3 +28,21 @@ The main sections of this document should be read in the order below:
 -   [Upload to GitHub](Upload%20to%20GitHub.md)
 
 ## Typographical Conventions
+
+## Notes and Warning Messages
+
+!!! info
+
+    Explains additional details.
+
+!!! warning
+
+    Explains steps that must be taken before proceeding.
+
+!!! success
+
+    Explains what a successful task will look like.
+
+!!! danger
+
+    Explains what action or error that may cause a crash.
