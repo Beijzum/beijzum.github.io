@@ -2,13 +2,12 @@ site_name: User Documentation Project JJ
 theme:
     name: material
     features:
-        - navigation.tabs
-        - navigation.tabs.sticky
         - navigation.sections
         - navigation.expand
         - navigation.path
         - content.code.copy
         - content.code.select
+        - toc.integrate
     palette:
         primary: blue
         accent: purple
@@ -18,11 +17,11 @@ theme:
 markdown_extensions:
     - def_list
     - pymdownx.tasklist:
-        custom_checkbox: true
+          custom_checkbox: true
     - pymdownx.highlight:
-        anchor_linenums: true
-        line_spans: __span
-        pygments_lang_class: true
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
     - pymdownx.inlinehilite
     - pymdownx.snippets
     - pymdownx.superfences
