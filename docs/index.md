@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome. This documentation will help you create a simple Python game on a Windows operating system. It will also help you upload your Python project to GitHub. The goal is to help beginner-level software developers get started on their coding journey.
+Welcome. This document will help you create a simple Python game on a Windows operating system. It will also help you upload your Python project to GitHub. The goal is to help beginner-level software developers get started on their coding journey.
 
 > ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is a high-level programming level, which means it is easy to read and understand for humans.
 >
@@ -10,9 +10,12 @@ Welcome. This documentation will help you create a simple Python game on a Windo
 
 This guide is targeted towards new software developers. (elaborate)
 
-## Prerequisite Knowledge
+## Prerequisites
 
-## Software Requirements
+-   [Python](https://www.python.org/downloads/) v3.x.x+
+-   [GitHub](https://github.com/) account
+-   Windows operating system
+-   Basic command terminal knowledge
 
 ## Procedures Overview
 
