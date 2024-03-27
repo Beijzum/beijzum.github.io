@@ -28,3 +28,36 @@ The main sections of this document should be read in the order below:
 -   [Upload to GitHub](Upload%20to%20GitHub.md)
 
 ## Typographical Conventions
+
+-   Code snippets
+
+```py
+elif user_input == computer_choice:
+    print("Tie!")
+```
+
+-   Typing in commands
+
+> Type these words
+
+-   Filenames
+
+`filename.extension`
+
+## Notes and Warning Messages
+
+!!! info
+
+    Explains additional details.
+
+!!! warning
+
+    Explains steps that must be taken before proceeding.
+
+!!! success
+
+    Explains what a successful task will look like.
+
+!!! danger
+
+    Explains what action or error that may cause a crash.
