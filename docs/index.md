@@ -19,20 +19,8 @@ This guide is targeted towards new software developers. (elaborate)
 
 ## Procedures Overview
 
+-   [Setting Up Your Project](./Setting%20Up%20Your%20Project.md)
+-   [Writing Your First Game](./Writing%20Your%20First%20Game.md)
+-   [Upload to GitHub](Upload%20to%20GitHub.md)
+
 ## Typographical Conventions
-
----
-
-## Commands
-
--   `mkdocs new [dir-name]` - Create a new project.
--   `mkdocs serve` - Start the live-reloading docs server.
--   `mkdocs build` - Build the documentation site.
--   `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
