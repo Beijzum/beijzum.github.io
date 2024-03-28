@@ -1,4 +1,4 @@
-DIR## Overview
+## Overview
 
 This section will focus on setting up a local projects folder using the terminal.
 
@@ -105,6 +105,10 @@ This section will focus on how to navigate file directories.
         ![successful nav directory](./assets/setupS6.png)
 
 ## Create Project Folder
+
+!!! danger
+
+    Should we change to rock_paper_scissor**S**?
 
 1.  **Type** the following command to create the project folder:
 
