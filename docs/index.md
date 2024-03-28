@@ -44,20 +44,22 @@ elif user_input == computer_choice:
 
 `filename.extension`
 
+-   **Clicking** means left-clicking on the mouse.
+
 ## Notes and Warning Messages
 
-!!! info
+!!! note
 
     Explains additional details.
 
 !!! warning
 
-    Explains steps that must be taken before proceeding.
+    Explains steps that must be taken before proceeding. Follow the warnings to prevent errors from occuring.
 
 !!! success
 
-    Explains what a successful task will look like.
+    Explains what a successful task will look like. No issue to resolve and reader may continue with the document.
 
-!!! danger
+!!! failure
 
-    Explains what action or error that may cause a crash.
+    Explains what actions or errors may crash the program. The issue must be resolved before continuing with the document.

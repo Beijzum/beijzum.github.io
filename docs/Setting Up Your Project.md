@@ -2,13 +2,19 @@
 
 This section will focus on setting up a local projects folder using the terminal.
 
-**Note:** The terms command prompt and terminal are interchangable, as Windows calls the terminal "command prompt". However, most developers use the term terminal, so we will be using the term terminal in this tutorial in preparation for your computer science degree.
+!!! note
+
+    The terms "command prompt" and "terminal" are **interchangable**. Windows calls it the "command prompt", whereas developers often use the word "terminal". This document will describe the application as the "terminal" in this tutorial in preparation for your computer science degree.
+
+!!! warning
+
+    You must be on a **Windows** operating system to follow this guide without any errors. If you are on a **Mac** or **Linux** operating system, then the following steps may not work for you.
 
 ## Opening the Terminal
 
 This section will focus on how to open terminal on a computer with a Windows operating system.
 
-1.  Click on the Windows icon on the bottom left of your screen to access the Start menu.
+1.  **Click** on the Windows icon on the bottom left of your screen to access the Start menu.
     ![windows start menu](./assets/setupS1.png)
 
     !!! note
@@ -17,7 +23,7 @@ This section will focus on how to open terminal on a computer with a Windows ope
 
         ![windows key](./assets/setupS2_windowskey.png)
 
-1.  Type "cmd" into the search bar and click on the option shown below
+2.  Type "_command_" or "_cmd_" into the search bar and **click** on the option shown below
 
     ![terminal for Windows](./assets/setupS2.png)
 
@@ -29,31 +35,41 @@ This section will focus on how to open terminal on a computer with a Windows ope
 
 This section will focus on ensuring Python is installed on your machine.
 
-4.  Check python version in the terminal using one of the two commands below
+4.  Check python version in the terminal using one of the two commands below:
 
     > python --version
-    >
+
+    or
+
     > python3 --version
 
-        a. If Python is installed on your machine, then the terminal should display the version of Python that is installed, as shown in the image below.
+    !!! success
 
-        ![python installed](./assets/setupS4aW.png)
+        If Python is installed on your machine, then the terminal should display the version of Python that is installed, as shown in the image below.
 
-        b. If running command resulted in an error message similar to the likes shown below, then Python is not installed on your machine.
+        ![python installed](./assets/setupS4a.png)
 
-        ![python not installed](./assets/setupS4bW.png)
+    !!! failure
 
-        c. If your machine does not have Python, then download any 3.x version of Python [here](https://www.python.org/downloads/), the Python installation wizard will guide you through the process.
+        If running command resulted in an error message similar to the likes shown below, then Python is not installed on your machine.
+
+        ![python not installed](./assets/setupS4b.png)
+
+    !!! note
+
+        If your machine does not have Python, then download any 3.x.x version of Python [here](https://www.python.org/downloads/). The Python installation wizard will guide you through the process.
 
 ## Navigating Directories
 
-This section will focus on how to navigate file directories
+This section will focus on how to navigate file directories.
 
-5.  List all directories
+5.  Type in the command below to list out all directories you are currently in:
 
     > dir
 
-        a. Choose a directory that you want to put your project folder into
+    !!! notes
+
+        Choose a directory that you want to put your project folder into
 
 6.  Navigate to the chosen directory
 
