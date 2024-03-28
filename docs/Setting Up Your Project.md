@@ -110,25 +110,33 @@ This section will focus on how to navigate file directories.
 
     Should we change to rock_paper_scissor**S**?
 
-1.  **Type** the following command to create the project folder:
+7.  **Type** the following command to create the project folder:
 
     > mkdir rock_paper_scissor
 
     a. The project name "rock_paper_scissor" can be replaced with any name of your choice. This document will use the name "rock_paper_scissor" as the project name.
 
-2.  **Type** the following command to move into the newly created folder:
+8.  **Type** the following command to move into the newly created folder:
 
     > cd rock_paper_scissor
 
-3.  **Type** the following command to create a Python project with the name "rock_paper_scissor":
+9.  **Type** the following command to create a Python project with the name "rock_paper_scissor":
 
     > notepad rock_paper_scissor.py
 
-    a. If you have used your own project name, ensure that the name has the .py extension at the end. Excluding it will result in any code written the file to not run.
+    !!! warning
 
-4.  **Click** "Yes" when prompted to create a new file
+        If you have used your own project name, ensure that the name has the .py extension at the end. Excluding it will result in any code written the file to not run.
+
+10. **Click** "Yes" when prompted to create a new file
 
     ![create file prompt](./assets/setupS7.png)
+
+11. Type "dir" to check if the rock_paper_scissor.py file is in your current directory.
+
+    !!! success
+
+        Blah blah blah. Picture of successful created file.
 
 ## Conclusion
 
