@@ -4,7 +4,7 @@ Welcome. This document will help you create a simple Python game on a Windows op
 
 > ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is a high-level programming level, which means it is easy to read and understand for humans.
 >
-> ![GitHubIcon](./assets/github_icon_small.png) [GitHub](https://github.com/) is a developer platform that allows developers to create, store, manage, and share their code.
+> :material-github: [GitHub](https://github.com/) is a developer platform that allows developers to create, store, manage, and share their code.
 
 ## Intended Users
 
@@ -14,18 +14,18 @@ This guide is targeted towards beginner-level software developers who have very 
 
 You must have the following before proceeding:
 
--   [Python](https://www.python.org/downloads/) v3.x.x+
--   [GitHub](https://github.com/) account
--   A personal computer or laptop with a Windows operating system
--   Basic command terminal knowledge
+-   ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/downloads/) v3.x.x+
+-   :material-github: [GitHub](https://github.com/) account
+-   :material-microsoft-windows: A personal computer or laptop with a Windows operating system
+-   :octicons-terminal-24: Basic command terminal knowledge
 
 ## Procedures Overview
 
 The main sections of this document should be read in the order below:
 
--   [Setting Up Your Project](./Setting%20Up%20Your%20Project.md)
--   [Writing Your First Game](./Writing%20Your%20First%20Game.md)
--   [Upload to GitHub](Upload%20to%20GitHub.md)
+-   :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md)
+-   :fontawesome-solid-code: [Writing Your First Game](./Writing%20Your%20First%20Game.md)
+-   :material-cloud-upload: [Upload to GitHub](Upload%20to%20GitHub.md)
 
 ## Typographical Conventions
 

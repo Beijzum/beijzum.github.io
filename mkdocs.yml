@@ -34,9 +34,13 @@ theme:
               icon: material/brightness-4
               name: Switch to system preference
 
-# extra_css: [style.css] in case we want to add extra css
+# extra_css: // for extra css
+#     - stylesheets/extra.css
 
 markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
     - def_list
     - pymdownx.tasklist:
           custom_checkbox: true
@@ -46,9 +50,6 @@ markdown_extensions:
           pygments_lang_class: true
     - pymdownx.inlinehilite
     - pymdownx.snippets
-    - pymdownx.superfences
-    - admonition
-    - pymdownx.details
     - pymdownx.superfences
     - pymdownx.emoji:
           emoji_index: !!python/name:material.extensions.emoji.twemoji
