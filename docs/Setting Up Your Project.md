@@ -67,7 +67,7 @@ This section will ensure that ![PythonIcon](./assets/python_icon_small.png)Pytho
 
 This section will focus on how to navigate file directories.
 
-4.  Type in the command below to list out all directories you are currently in:
+4.  **Type** the following command to list out all directories you are currently in:
 
     > dir
 
@@ -85,7 +85,7 @@ This section will focus on how to navigate file directories.
 
         Practice good file management. Select a folder that will hold all your future projects and keep it organized.
 
-6.  Navigate to the chosen directory:
+6.  **Type** the following command to navigate to the chosen directory:
 
     > cd directory_name
 
@@ -93,9 +93,10 @@ This section will focus on how to navigate file directories.
 
     b. "directory_name" is a placeholder name. You can replace it with any directory that is listed when you typed "dir" back in the first step [here](./Setting%20Up%20Your%20Project.md/#navigating-directories).
 
+    !!! danger
     !!! warning
 
-        You must choose a clean directory that has no subdirectories. Choosing a directory with existing folders can lead to potential errors.
+        You must choose a clean directory that has no subdirectories. Choosing a directory with existing folders can lead to potential errors. (Why?)
 
     !!! success
 
@@ -105,22 +106,23 @@ This section will focus on how to navigate file directories.
 
 ## Create Project Folder
 
-7. Make the projects folder
+1.  **Type** the following command to create the project folder:
+
     > mkdir rock_paper_scissor
 
-**Note:** The project name rock_paper_scissor can be replaced with any project name of your choice, for the purposes of the demo we will use the name rock_paper_scissor. Any subsequent steps that use the rock_paper_scissor can be replaced with whatever name you have chosen, as long as the name is the exactly same throughout.
+    a. The project name "rock_paper_scissor" can be replaced with any name of your choice. This document will use the name "rock_paper_scissor" as the project name.
 
-8.  Move into the created folder
+2.  **Type** the following command to move into the newly created folder:
 
     > cd rock_paper_scissor
 
-9.  Create source code file
+3.  **Type** the following command to create a Python project with the name "rock_paper_scissor":
 
     > notepad rock_paper_scissor.py
 
-        a. If you have used your own project name, ensure that the name has the .py extension at the end. Excluding it will result in any code written the file to not run.
+    a. If you have used your own project name, ensure that the name has the .py extension at the end. Excluding it will result in any code written the file to not run.
 
-10. Click "Yes" when prompted to create a new file
+4.  **Click** "Yes" when prompted to create a new file
 
     ![create file prompt](./assets/setupS7.png)
 

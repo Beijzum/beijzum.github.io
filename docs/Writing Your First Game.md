@@ -147,9 +147,12 @@ else:
 13. Go back to the terminal
 
 14. Run the program
+
     > python rock_paper_scissor.py
 
-**WARNING:** Ensure that you are in the directory. If you did not close the terminal from the previous section, you should still be in the proper directory. If you closed the terminal, refer back to "Setting Up Your Project" under the "Navigating Directories" section, and repeat steps 1 and 2 again until you have reached the projects folder.
+    !!! warning
+
+        Ensure that you are in the directory. If you did not close the terminal from the previous section, you should still be in the proper directory. If you closed the terminal, refer back to "Setting Up Your Project" under the "Navigating Directories" section [here](./Setting%20Up%20Your%20Project.md/#navigating-directories).
 
 15. Enjoy your game!
 
@@ -157,7 +160,9 @@ else:
 
     ![terminal for game](./assets/codeS15a.png)
 
-**Note:** If your code does not run, double check it matches exactly as shown, with extra emphasis on the indentation. Python uses indentation as its reference to know when blocks of code end and where they begin. Misaligning the indentations will result in the program working.
+    !!! note
+
+        If your code does not run, double check it matches exactly as shown, with extra emphasis on the indentation. Python uses indentation as its reference to know when blocks of code end and where they begin. Misaligning the indentations will result in the program working.
 
 ## Conclusion
 
