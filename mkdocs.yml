@@ -38,7 +38,7 @@ theme:
 #     - stylesheets/extra.css
 
 markdown_extensions:
-    - admonition
+    - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     - pymdownx.details
     - pymdownx.superfences
     - def_list
@@ -57,7 +57,7 @@ markdown_extensions:
 
 extra_javascript:
     - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-    - javascripts/tablesort.js
+    - javascripts/tablesort.js # Adds button to sort tables
 
 nav:
     - index.md

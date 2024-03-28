@@ -1,4 +1,4 @@
-## Overview
+DIR## Overview
 
 This section will focus on setting up a local projects folder using the terminal.
 
@@ -12,7 +12,7 @@ This section will focus on setting up a local projects folder using the terminal
 
 ## Opening the Terminal
 
-This section will focus on how to open terminal on a computer with a Windows operating system.
+This section will focus on how to open the terminal on a computer with a Windows operating system.
 
 1.  **Click** on the Windows icon on the bottom left of your screen to access the Start menu.
     ![windows start menu](./assets/setupS1.png)
@@ -23,19 +23,25 @@ This section will focus on how to open terminal on a computer with a Windows ope
 
         ![windows key](./assets/setupS2_windowskey.png)
 
-2.  Type "_command_" or "_cmd_" into the search bar and **click** on the option shown below
+2.  **Type** "_command_" or "_cmd_" into the search bar and **click** on the application shown below to open it:
 
-    ![terminal for Windows](./assets/setupS2.png)
+    ![terminal for Windows1](./assets/setupS2a.png)
 
     !!! note
 
         If there is no search bar, you may also type "cmd" right after accessing the Start menu.
 
-## Check Python on Machine
+    !!! success
 
-This section will focus on ensuring Python is installed on your machine.
+        This window will pop up if you successfully opened the terminal.
 
-4.  Check python version in the terminal using one of the two commands below:
+        ![terminal for Windows2](./assets/setupS2b.png)
+
+## Check Python on Computer
+
+This section will ensure that ![PythonIcon](./assets/python_icon_small.png)Python is properly installed on your computer.
+
+3.  Check the Python version in the terminal using one of the two commands below:
 
     > python --version
 
@@ -47,15 +53,13 @@ This section will focus on ensuring Python is installed on your machine.
 
         If Python is installed on your machine, then the terminal should display the version of Python that is installed, as shown in the image below.
 
-        ![python installed](./assets/setupS4a.png)
+        ![python installed](./assets/setupS3a.png)
 
     !!! failure
 
         If running command resulted in an error message similar to the likes shown below, then Python is not installed on your machine.
 
-        ![python not installed](./assets/setupS4b.png)
-
-    !!! note
+        ![python not installed](./assets/setupS3b.png)
 
         If your machine does not have Python, then download any 3.x.x version of Python [here](https://www.python.org/downloads/). The Python installation wizard will guide you through the process.
 
@@ -63,21 +67,41 @@ This section will focus on ensuring Python is installed on your machine.
 
 This section will focus on how to navigate file directories.
 
-5.  Type in the command below to list out all directories you are currently in:
+4.  Type in the command below to list out all directories you are currently in:
 
     > dir
 
+    a. Afterwards, the terminal should look something like this. Your directories will be **different**.
+
+    ![successful dir](./assets/setupS4.png)
+
+    b. A directory will be labeled as "_< DIR >_".
+
+5.  Choose a directory that you want to put your project folder into.
+
+    a. For example, you can choose existing directory like "Documents" shown in the previous step.
+
     !!! notes
 
-        Choose a directory that you want to put your project folder into
+        Practice good file management. Select a folder that will hold all your future projects and keep it organized.
 
-6.  Navigate to the chosen directory
+6.  Navigate to the chosen directory:
 
     > cd directory_name
 
-        a. directory_name is a filler name, replace it with any directory that is listed when you typed "dir" back in step 5
+    a. "cd", also known as "chdir", is a command that changes your current working directory to another directory.
 
-        b. If the directory you chose has sub directories, repeat steps 1 and 2 until you are in the directory you wish for your project to reside in.
+    b. "directory_name" is a placeholder name. You can replace it with any directory that is listed when you typed "dir" back in the first step [here](./Setting%20Up%20Your%20Project.md/#navigating-directories).
+
+    !!! warning
+
+        You must choose a clean directory that has no subdirectories. Choosing a directory with existing folders can lead to potential errors.
+
+    !!! success
+
+        Successfully navigating to a directory using the terminal command "cd" will looking something like this:
+
+        ![successful nav directory](./assets/setupS6.png)
 
 ## Create Project Folder
 
@@ -98,7 +122,7 @@ This section will focus on how to navigate file directories.
 
 10. Click "Yes" when prompted to create a new file
 
-    ![create file prompt](./assets/setupS6.PNG)
+    ![create file prompt](./assets/setupS7.png)
 
 ## Conclusion
 
