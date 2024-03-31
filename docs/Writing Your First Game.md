@@ -50,7 +50,7 @@ This section will setup the variables that are needed for the game.
 
     a. This line of code pauses the program, displays the prompt "Rock, paper, or scissor?", and waits for a player to type something into the program.
 
-    b. lower() is a method that returns the lowercase string from the given string. In this case, any string that the user inputs will always be lowercase.
+    b. .lower() is a String method that returns the lowercase string from the given string. In this case, any string that the user inputs will always be lowercase.
 
     c. For example, "rOcK" will be "rock" when .lower() is used. This reduces the chance of user error by narrowing down the user input.
 
@@ -182,7 +182,7 @@ This section will focus on implementing the logic flow that determines who wins 
 
     b. This means that the player loses by default if the player does not meet any of the above requirements.
 
-    c. The "else" statement executes if the "if" statement evaluates to "False".
+    c. The "else" statement executes if the "if-else" statements all evaluate to "False".
 
 ## The Final Code Snippet
 
