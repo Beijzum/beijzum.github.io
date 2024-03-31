@@ -30,16 +30,17 @@ The main sections of this document should be read in the order below:
 
 ## Typographical Conventions
 
+-   Typing in commands
+
+```
+Type these words
+```
+
 -   Code snippets
 
 ```py
-elif user_input == computer_choice:
-    print("Tie!")
+print("Hello World!")
 ```
-
--   Typing in commands
-
-> Type these words
 
 -   Filenames
 
