@@ -93,11 +93,6 @@ This section will focus on how to navigate file directories.
 
     b. "directory_name" is a placeholder name. You can replace it with any directory that is listed when you typed "dir" back in the first step [here](./Setting%20Up%20Your%20Project.md/#navigating-directories).
 
-    !!! danger
-    !!! warning
-
-        You must choose a clean directory that has no subdirectories. Choosing a directory with existing folders can lead to potential errors. (Why?)
-
     !!! success
 
         Successfully navigating to a directory using the terminal command "cd" will looking something like this:
@@ -105,10 +100,6 @@ This section will focus on how to navigate file directories.
         ![successful nav directory](./assets/setupS6.png)
 
 ## Create Project Folder
-
-!!! danger
-
-    Should we change to rock_paper_scissor**S**?
 
 7.  **Type** the following command to create the project folder:
 
@@ -120,6 +111,16 @@ This section will focus on how to navigate file directories.
 
     > cd rock_paper_scissor
 
+    a. Your terminal should look like this if you have created the rock_paper_scissor directory and navigated to it.
+
+    ![successfulrpsdir](./assets/setupS8success.png)
+
+    !!! failure
+
+        ![failedrpsdir](./assets/setupS8failure.png)
+
+        If you cannot find the path specified, then go back to the first step [here](./Setting%20Up%20Your%20Project.md/#create-project-folder).
+
 9.  **Type** the following command to create a Python project with the name "rock_paper_scissor":
 
     > notepad rock_paper_scissor.py
@@ -130,13 +131,21 @@ This section will focus on how to navigate file directories.
 
 10. **Click** "Yes" when prompted to create a new file
 
-    ![create file prompt](./assets/setupS7.png)
+    ![create file prompt](./assets/setupS10.png)
 
-11. Type "dir" to check if the rock_paper_scissor.py file is in your current directory.
+11. **Type** "dir" to check if the rock_paper_scissor.py file is in your current directory.
 
     !!! success
 
-        Blah blah blah. Picture of successful created file.
+        If you're successul, you will see the rock_paper_scissor.py file inside the rock_paper_scissor directory.
+
+        It should *not* be labelled with < DIR > because it is a file.
+
+        ![successrps.py](./assets/setupS11.png)
+
+    !!! warning
+
+        If you do not see the rock_paper_scissor.py file inside the rock_paper_scissor directory, then you must return [here](./Setting%20Up%20Your%20Project.md/#create-project-folder) and follow the instructions again before proceeding with writing the code.
 
 ## Conclusion
 
