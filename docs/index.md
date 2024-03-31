@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome. This document will help you create a simple Python game on a Windows operating system. It will also help you upload your Python project to GitHub. The goal is to help beginner-level software developers get started on their coding journey.
+Welcome. This document will help you create a simple Python game on a Windows operating system. It will also help you upload your Python project to GitHub. The goal is to help first-term British Columbia Institute of Technology (BCIT) Computer Systems Technology (CST) students get started on their coding journey. This guide will help you become more comfortable with writing code and using developer platforms.
 
 > ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is a high-level programming level, which means it is easy to read and understand for humans.
 >
@@ -8,7 +8,7 @@ Welcome. This document will help you create a simple Python game on a Windows op
 
 ## Intended Users
 
-This guide is targeted towards beginner-level software developers who have very little experience with coding and developer platforms.
+This guide is targeted towards first-term BCIT CST students with little experience in writing code and using developer platforms.
 
 ## Prerequisites
 
@@ -17,6 +17,7 @@ You must have the following before proceeding:
 -   ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/downloads/) v3.x.x+
 -   :material-github: [GitHub](https://github.com/) account
 -   :material-microsoft-windows: A personal computer or laptop with a Windows operating system
+-   :material-lightbulb-on: Basic computer navigation knowledge
 -   :octicons-terminal-24: Basic command terminal knowledge
 
 ## Procedures Overview

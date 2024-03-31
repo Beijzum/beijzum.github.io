@@ -158,4 +158,4 @@ By the end of this section, you will have successfully completed the following u
 
 The next section will focus on coding the game itself, click on the link below.
 
-[Writing Your First Game](./Writing%20Your%20First%20Game.md)
+:fontawesome-solid-code: [Writing Your First Game](./Writing%20Your%20First%20Game.md)
