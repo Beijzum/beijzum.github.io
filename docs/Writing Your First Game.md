@@ -1,52 +1,66 @@
 ## Overview
 
-This section will focus on coding the mechanics of rock paper scissor in Python.
+This section will focus on coding a simple game of rock paper scissors in Python.
 
-**Note:** Variable names in code are caps sensitive, should you wish to deviate from using our provided variable names, ensure that they are exactly the same throughout the entire file. Common mistakes in programming often include variable names that do not match exactly.
+!!! note
+
+    Variable names in code are *case-sensitive* If you wish to use your own variable names, please ensure that they are consistent throughout the entire file.
+
+    A common mistake that developers make is incorrectly typing a variable name, which could cause errors in the program.
+
+!!! warning
+
+    Please ensure that you have the `rock_paper_scissor.py` file opened in notepad before proceeding.
 
 ## Prepare Game Variables
 
-This section will focus on setting up the variables needed for the game.
+This section will setup the variables that are needed for the game.
 
-1. Import the random module
+1.  Import the random module by _typing_ the following:
 
-```py
-import random
-```
+    ```py
+    import random
+    ```
 
-    a. This line of code imports the random module, which includes a function we will be using for the computer to randomly select rock, paper, or scissor.
+    a. The first line of code imports the _random_ module, which possesses a series of functions for generating or manipulating random integers.
 
-2. Initialize all options
+    b. This program will be using the random module randomly generate rock, paper, or scissor for the computer opponent.
 
-```py
-options = ("rock", "paper", "scissor")
-```
+    !!! notes
+
+        The "import" keyword lets you import entire libraries/modules with helpful functions into your code. This allows you to reuse code that you (or others) have created in any project.
+
+2.  Initialize all options by _typing_ the following:
+
+    ```py
+    options = ("rock", "paper", "scissor")
+    ```
 
     a. This line of code writes all available choices in rock, paper, scissor in a tuple, where the random module will use as the pool to randomly select its choice.
 
-3. Get player choice
+3.  Get player choice by _typing_ the following:
 
-```py
-user_input = input("Rock, paper, or scissor? ").lower()
-```
+    ```py
+    user_input = input("Rock, paper, or scissor? ").lower()
+    ```
 
     a. This line of code pauses the program to wait for a player to type something into the terminal, while displaying the prompt "Rock, paper or scissor?".
 
     b. This line of code makes all letters received from the input turn to lowercase, allowing standardization of comparisons in the logic chain.
 
-4. Get computer choice
+4.  Get computer choice by _typing_ the following:
 
-```py
-computer_choice = random.choice(options)
-```
+    ```py
+    computer_choice = random.choice(options)
+    ```
 
-    a. This line of code randomly selects an option from the tuple initialized back in step 2.
+    a. This line of code randomly selects an option from the tuple initialized back in _step 2_ of ["Prepare Game Variables"](./Writing%20Your%20First%20Game.md/#prepare-game-variables).
 
-5. Print out computer's choice
+5.  Print out computer's choice by _typing_ the following:
 
-```py
-print(f"Computer chooses {computer_choice}")
-```
+    ```py
+    print(f"Computer chooses {computer_choice}")
+    ```
 
     a. This line of code lets the player know what the computer has chosen as its option.
 
@@ -60,19 +74,19 @@ This section will focus on implementing the logic flow that determines who wins 
 
 6. Handle invalid choices
 
-```py
-if user_input not in options:
-    print("Funny error message here.")
-```
+    ```py
+    if user_input not in options:
+        print("Funny error message here.")
+    ```
 
     a. This line of code checks if the user input is valid choice using the tuple initialized in the previous section as the reference point.
 
 7. Handle ties
 
-```py
-elif user_input == computer_choice:
-    print("Tie!")
-```
+    ```py
+    elif user_input == computer_choice:
+        print("Tie!")
+    ```
 
 !!! note
 
@@ -80,37 +94,37 @@ elif user_input == computer_choice:
 
 1. Handle user choice of rock
 
-```py
-elif user_input == options[0] and computer_choice == options[2]:
-    print("You Win!")
-```
+    ```py
+    elif user_input == options[0] and computer_choice == options[2]:
+        print("You Win!")
+    ```
 
     a. This line of code checks if the computer has chosen scissor when the player input is rock, which will result in a win.
 
-9. Handle user choice of paper
+2. Handle user choice of paper
 
-```py
-elif user_input == options[1] and computer_choice == options[0]:
-    print("You Win!")
-```
+    ```py
+    elif user_input == options[1] and computer_choice == options[0]:
+        print("You Win!")
+    ```
 
     a. This line of code checks if the computer has chosen rock when the player input is paper, which will result in a win.
 
-10. Handle user choice of scissor
+3. Handle user choice of scissor
 
-```py
-elif user_input == options[2] and computer_choice == options[1]:
-    print("You Win!")
-```
+    ```py
+    elif user_input == options[2] and computer_choice == options[1]:
+        print("You Win!")
+    ```
 
     a. This line of code checks if the computer has chosen paper when the player input is scissor, which will result in a win.
 
-11. Handle lose scenario
+4. Handle lose scenario
 
-```py
-else:
-    print("You Lose!")
-```
+    ```py
+    else:
+        print("You Lose!")
+    ```
 
     a. This line of code runs when none of the above requirements are met, which by default only happens when the player loses.
 

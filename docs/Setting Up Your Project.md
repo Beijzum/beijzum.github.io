@@ -10,11 +10,13 @@ This section will focus on setting up a local projects folder using the terminal
 
     You must be on a **Windows** operating system to follow this guide without any errors. If you are on a **Mac** or **Linux** operating system, then the following steps may not work for you.
 
+    Please read the typographical conventions [here](./index.md/#typographical-conventions) before continuing. Remember to press the "enter/return" key after typing in the terminal commands.
+
 ## Opening the Terminal
 
 This section will focus on how to open the terminal on a computer with a Windows operating system.
 
-1.  **Click** on the Windows icon on the bottom left of your screen to access the Start menu.
+1.  _Click_ on the Windows icon on the bottom left of your screen to access the "Start menu".
     ![windows start menu](./assets/setupS1.png)
 
     !!! note
@@ -23,7 +25,7 @@ This section will focus on how to open the terminal on a computer with a Windows
 
         ![windows key](./assets/setupS2_windowskey.png)
 
-2.  **Type** "_command_" or "_cmd_" into the search bar and **click** on the application shown below to open it:
+2.  _Type_ "command" or "cmd" into the search bar and _click_ on the application shown below to open it:
 
     ```
     command
@@ -51,7 +53,7 @@ This section will focus on how to open the terminal on a computer with a Windows
 
 This section will ensure that ![PythonIcon](./assets/python_icon_small.png)Python is properly installed on your computer.
 
-3.  Check the Python version in the terminal using one of the two commands below:
+3.  Check the Python version in the terminal by typing one of the two commands below:
 
     ```
     python --version
@@ -81,7 +83,7 @@ This section will ensure that ![PythonIcon](./assets/python_icon_small.png)Pytho
 
 This section will focus on how to navigate file directories.
 
-4.  **Type** the following command to list out all directories you are currently in:
+4.  List out all directories you are currently in by _typing_ the following:
 
     ```
     dir
@@ -101,7 +103,7 @@ This section will focus on how to navigate file directories.
 
         Practice good file management. Select a folder that will hold all your future projects and keep it organized.
 
-6.  **Type** the following command to navigate to the chosen directory:
+6.  Navigate to the chosen directory by _typing_ the following:
 
     ```
     cd directory_name
@@ -119,7 +121,7 @@ This section will focus on how to navigate file directories.
 
 ## Create Project Folder
 
-7.  **Type** the following command to create the project folder:
+7.  Create the project folder by _typing_ the following:
 
     ```
     mkdir rock_paper_scissor
@@ -127,7 +129,7 @@ This section will focus on how to navigate file directories.
 
     a. The project name `rock_paper_scissor` can be replaced with any name of your choice. This document will use the name `rock_paper_scissor` as the project name.
 
-8.  **Type** the following command to move into the newly created folder:
+8.  Move into the newly created folder by _typing_ the following:
 
     ```
     cd rock_paper_scissor
@@ -143,7 +145,7 @@ This section will focus on how to navigate file directories.
 
         If you cannot find the path specified, then go back to the first step [here](./Setting%20Up%20Your%20Project.md/#create-project-folder).
 
-9.  **Type** the following command to create a Python project with the name `rock_paper_scissor`:
+9.  Create a Python project with the name `rock_paper_scissor` by _typing_ the following:
 
     ```
     notepad rock_paper_scissor.py
@@ -153,11 +155,11 @@ This section will focus on how to navigate file directories.
 
         If you have used your own project name, ensure that the name has the .py extension at the end. Excluding it will result in any code written the file to not run.
 
-10. **Click** "Yes" when prompted to create a new file
+10. _Click_ "Yes" when prompted to create a new file.
 
     ![create file prompt](./assets/setupS10.png)
 
-11. **Type** "dir" to check if the `rock_paper_scissor.py` file is in your current directory.
+11. Check if the `rock_paper_scissor.py` file is in your current directory by _typing_ the following:
 
     ```
     dir

@@ -30,13 +30,15 @@ The main sections of this document should be read in the order below:
 
 ## Typographical Conventions
 
--   Typing in commands
+-   _Clicking_ means left-clicking on the mouse.
+
+-   _Typing_ in commands in the terminal. You will press the "enter" or "return" key after typing the command.
 
 ```
-Type these words
+Type these words and press enter/return to activate the command.
 ```
 
--   Code snippets
+-   Code snippets will look like this:
 
 ```py
 print("Hello World!")
@@ -44,9 +46,9 @@ print("Hello World!")
 
 -   Filenames
 
-`filename.extension`
+`directory_name` for directories
 
--   **Clicking** means left-clicking on the mouse.
+`filename.extension` for files
 
 ## Notes and Warning Messages
 
