@@ -177,6 +177,8 @@ This section will focus on how to navigate file directories.
 
         If you do not see the `rock_paper_scissor.py` file inside the `rock_paper_scissor` directory, then you must return [here](./Setting%20Up%20Your%20Project.md/#create-project-folder) and follow the instructions again before proceeding with writing the code.
 
+        Do *not* close the terminal. This guide will refer back to the terminal to activate other commands.
+
 ## Conclusion
 
 By the end of this section, you will have successfully completed the following using only the terminal:

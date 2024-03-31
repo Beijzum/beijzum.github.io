@@ -44,6 +44,14 @@ Type these words and press enter/return to activate the command.
 print("Hello World!")
 ```
 
+You will press the "enter" or "return" key after typing in the code found in the code snippet. It will look something like this if we _duplicate_ the code snippet:
+
+```py
+print("Hello World!")
+print("Hello World!")
+print("Hello World!")
+```
+
 -   Filenames
 
 `directory_name` for directories
