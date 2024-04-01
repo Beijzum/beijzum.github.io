@@ -2,7 +2,7 @@
 
 Welcome. This document will help you create a simple Python game on a Windows operating system. It will also help you upload your Python project to GitHub. The goal is to help first-term British Columbia Institute of Technology (BCIT) Computer Systems Technology (CST) students get started on their coding journey. This guide will help you become more comfortable with writing code and using developer platforms.
 
-> ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is a high-level programming level, which means it is easy to read and understand for humans.
+> ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is a high-level programming language, which means it is easy to read and understand for humans.
 >
 > :material-github: [GitHub](https://github.com/) is a developer platform that allows developers to create, store, manage, and share their code.
 

@@ -51,7 +51,7 @@ This section will focus on how to open the terminal on a computer with a Windows
 
 ## Check Python on Computer
 
-This section will ensure that ![PythonIcon](./assets/python_icon_small.png)Python is properly installed on your computer.
+This section will ensure that ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is properly installed on your computer.
 
 3.  Check the Python version in the terminal by typing one of the two commands below:
 
