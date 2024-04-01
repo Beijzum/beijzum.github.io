@@ -29,6 +29,7 @@
 | Local            | Anything on your computer that does not require the internet.                                            |
 | Cloud            | Online services that hosts some functionality remotely, such as data storage.                            |
 | Repository       | A location where files can be stored, usually on GitHub.                                                 |
+| Branch           | A new/separate version of the main repository                                                            |
 | Staging          | The act of marking a file for adding it version control.                                                 |
 | Commit           | The actual act of adding to version control.                                                             |
 | Commit Message   | A short message that describes what changes were made from the original file.                            |
