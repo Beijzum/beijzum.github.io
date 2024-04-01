@@ -249,6 +249,18 @@ else:
 
         ![terminal for game](./assets/codeS15a.png)
 
+    !!! failure
+
+        If there is a syntax error, then check which line can be found. For example, the picture below shows that the error is in line 17, and the error itself is around the "else" keyword. The error can be caused by a lack of indentation, which can lead to statements belonging to the wrong block of code.
+
+        ![syntax error](./assets/codeS15b.png)
+
+    !!! failure
+
+        If there is a name error and "random" is not defined, then it is an import error. Add "import random" as the first line of code to fix this issue.
+
+        ![import error](./assets/codeS15c.png)
+
     !!! warning
 
         If your code does not run, please check it [here](./Writing%20Your%20First%20Game.md/#the-final-code-snippet).
