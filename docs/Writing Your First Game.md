@@ -269,7 +269,7 @@ This section will focus on running your game through the terminal.
 
     !!! warning
 
-        If your code does not run, please check it [here](./Writing%20Your%20First%20Game.md/#the-final-code-snippet).
+        If your code does not run, please check it [here](./Writing%20Your%20First%20Game.md/#finalizing-the-code).
 
 ## Conclusion
 
