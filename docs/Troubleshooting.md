@@ -1,17 +1,9 @@
 ## Common Issues
 
-| Issue          | Explanation | Solution  |
-| -------------- | ----------- | --------- |
-| Variable names | Blah Blah   | Blah BLah |
-
-File/directory names
-
-Add/Commit files
-
-Typing in wrong command
-
-Python indentation/white space
-
-New line after every code.
-
-Testtesttest
+| Issue                          | Explanation | Solution  |
+| ------------------------------ | ----------- | --------- |
+| File/directory names           | asdasd      | asdasd    |
+| Add/Commit files               | asd         | asd       |
+| Variable names                 | Variable names are    | Blah BLah |
+| Python indentation/white space | asd         | asd       |
+| New line after every code      | asd         | asd       |
