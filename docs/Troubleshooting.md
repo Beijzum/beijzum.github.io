@@ -1,6 +1,6 @@
 ## Common Issues
 
-| Issue                          | Explanation | Solution  |
+| Issue                          | Cause | Solution  |
 | ------------------------------ | ----------- | --------- |
 | File/directory names           | asdasd      | asdasd    |
 | Add/Commit files               | asd         | asd       |

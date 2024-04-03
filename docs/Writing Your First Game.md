@@ -40,7 +40,9 @@ This section will setup the variables that are needed for the game.
 
     a. This line of code sets "rock, paper, scissor" as a tuple with the variable name "options".
 
-    b. Later, you will use the "random" module to access functions that randomly choose between rock, paper, and scissor.
+    b. A tuple is a collection of data. It is a data structure that cannot be modified. Tuples use parentheses to define their elements.
+
+    c. Later, you will use the "random" module to access functions that randomly choose between rock, paper, and scissor.
 
 3.  Get player choice by _typing_ the following:
 
@@ -60,13 +62,9 @@ This section will setup the variables that are needed for the game.
     computer_choice = random.choice(options)
     ```
 
-    a. This line of code randomly selects "rock", "paper", or "scissor" from the tuple initialized back in _step 2_ of ["Prepare Game Variables"](./Writing%20Your%20First%20Game.md/#prepare-game-variables).
+    a. This line of code randomly selects "rock", "paper", or "scissor" from the tuple initialized back in _step 2_ of ["Prepare Game Variables"](./Writing%20Your%20First%20Game.md/#preparing-game-variables).
 
     b. The choice() method (from the "random" module) returns a randomly selected element from the specified sequence.
-
-    !!! notes
-
-        A tuple is a collection of data. It is a data structure that cannot be modified.
 
 5.  Print out computer's choice by _typing_ the following:
 
@@ -93,7 +91,7 @@ This section will focus on implementing the logic flow that determines who wins 
         print("Funny error message here.")
     ```
 
-    a. This line of code checks if the user input is valid choice using the tuple initialized in _step 2_ of the [previous section](./Writing%20Your%20First%20Game.md/#prepare-game-variables).
+    a. This line of code checks if the user input is valid choice using the tuple initialized in _step 2_ of the [previous section](./Writing%20Your%20First%20Game.md/#preparing-game-variables).
 
     b. "not" is a conditional statement that executes a block of code evaluates to false.
 
@@ -184,9 +182,9 @@ This section will focus on implementing the logic flow that determines who wins 
 
     c. The "else" statement executes if the "if-else" statements all evaluate to "False".
 
-## Finalizing Code Snippet
+## Finalizing the Code
 
-If you have followed the instructions correctly, then your file should look like the following:
+If you have followed the instructions correctly, then your file should look similar to the following:
 
 ```py
 import random
@@ -209,6 +207,12 @@ elif user_input == options[2] and computer_choice == options[1]:
 else:
     print("You Lose!")
 ```
+
+!!! notes
+
+    You may add white space between blocks of code to help with code readability.
+
+    For the example above, module imports, variable initializations, and the if-else code blocks were separated by a single line to make them easier to read and distinguish.
 
 ## Running The Game
 

@@ -65,6 +65,8 @@ This section will ensure that ![PythonIcon](./assets/python_icon_small.png) [Pyt
     python3 --version
     ```
 
+    a. If "python" does not work, then try "python3" instead.
+
     !!! success
 
         If Python is installed on your machine, then the terminal should display the version of Python that is installed, as shown in the image below.
@@ -145,7 +147,7 @@ This section will focus on how to create a project folder.
 
         ![failedrpsdir](./assets/setupS8failure.png)
 
-        If you cannot find the path specified, then go back to the first step [here](./Setting%20Up%20Your%20Project.md/#create-project-folder).
+        If you cannot find the path specified, then go back to the first step [here](./Setting%20Up%20Your%20Project.md/#creating-project-folder).
 
 9.  Create a Python project with the name `rock_paper_scissor` by _typing_ the following:
 
@@ -155,7 +157,7 @@ This section will focus on how to create a project folder.
 
     !!! warning
 
-        If you have used your own project name, ensure that the name has the .py extension at the end. Excluding it will result in any code written the file to not run.
+        If you have used your own project name, ensure that the name has the Python `.py` extension at the end. Excluding it will prevent the written code from running in Python.
 
 10. _Click_ "Yes" when prompted to create a new file.
 
@@ -177,7 +179,7 @@ This section will focus on how to create a project folder.
 
     !!! warning
 
-        If you do not see the `rock_paper_scissor.py` file inside the `rock_paper_scissor` directory, then you must return [here](./Setting%20Up%20Your%20Project.md/#create-project-folder) and follow the instructions again before proceeding with writing the code.
+        If you do not see the `rock_paper_scissor.py` file inside the `rock_paper_scissor` directory, then you must return [here](./Setting%20Up%20Your%20Project.md/#creating-project-folder) and follow the instructions again before proceeding with writing the code.
 
         Do *not* close the terminal. This guide will refer back to the terminal to activate other commands.
 

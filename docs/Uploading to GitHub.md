@@ -4,7 +4,7 @@ This section will focus uploading your code onto :material-github: [GitHub](http
 
 !!! warning
 
-    Ensure that your terminal is in the `rock_paper_scissor` directory that you created previously in :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md/#create-project-folder).
+    Ensure that your terminal is in the `rock_paper_scissor` directory that you created previously in :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md/#creating-project-folder).
 
     Ensure that you have a GitHub account. If you do not have a GitHub account, click [here](https://github.com/join) and follow the steps to create an account.
 
