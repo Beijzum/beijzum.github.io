@@ -44,7 +44,7 @@ This section focuses on adding your newly created game into version control.
     git add rock_paper_scissor.py
     ```
 
-    a. The "add" command stages the file. Staging a file means that you have marked a modified file in its current version to go into the next commit.
+    a. The "git add" command stages the file. Staging a file means that you have marked a modified file in its current version to go into the next commit.
 
 1.  Commit file in the terminal
 
@@ -64,11 +64,11 @@ This section focuses on adding your newly created game into version control.
 
     !!! failure
 
-        If you forget to add and stage a file after modifying it, then the following message will be shown:
+        If you forget to "git add" to stage a file after modifying it, then the following message will be shown:
 
         ![add code to git fail](./assets/uploadS3Failure.png)
 
-        Just add/stage the file and then commit the file to fix this issue.
+        Stage the file and then commit the file to fix this issue.
 
     !!! notes
 
