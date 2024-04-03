@@ -214,7 +214,7 @@ else:
 
     For the example above, module imports, variable initializations, and the if-else code blocks were separated by a single line to make them easier to read and distinguish.
 
-## Running The Game
+## Running the Game
 
 This section will focus on running your game through the terminal.
 
