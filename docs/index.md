@@ -26,7 +26,7 @@ The main sections of this document should be read in the order below:
 
 -   :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md)
 -   :fontawesome-solid-code: [Writing Your First Game](./Writing%20Your%20First%20Game.md)
--   :material-cloud-upload: [Upload to GitHub](Upload%20to%20GitHub.md)
+-   :material-cloud-upload: [Uploading to GitHub](Uploading%20to%20GitHub.md)
 
 ## Typographical Conventions
 

@@ -49,7 +49,7 @@ This section will focus on how to open the terminal on a computer with a Windows
 
         ![terminal for Windows2](./assets/setupS2b.png)
 
-## Check Python on Computer
+## Checking for Python on Computer
 
 This section will ensure that ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is properly installed on your computer.
 
@@ -119,7 +119,9 @@ This section will focus on how to navigate file directories.
 
         ![successful nav directory](./assets/setupS6.png)
 
-## Create Project Folder
+## Creating Project Folder
+
+This section will focus on how to create a project folder.
 
 7.  Create the project folder by _typing_ the following:
 

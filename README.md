@@ -1,2 +1,2 @@
-# UserDocumentationProjectJJ
-COMM 2216 User Documentation Project 💀💀💀💀💀
+# COMM 2216 User Documentation Project
+💀💀💀💀💀

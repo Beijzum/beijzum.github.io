@@ -1,6 +1,8 @@
 ## Common Issues
 
-Variable names.
+| Issue          | Explanation | Solution  |
+| -------------- | ----------- | --------- |
+| Variable names | Blah Blah   | Blah BLah |
 
 File/directory names
 

@@ -14,7 +14,7 @@ This section will focus on coding a simple game of rock paper scissor in Python.
 
     Please read the typographical conventions [here](./index.md/#typographical-conventions) before continuing. Remember to press the "enter/return" key after typing the line(s) of code.
 
-## Prepare Game Variables
+## Preparing Game Variables
 
 This section will setup the variables that are needed for the game.
 
@@ -82,7 +82,7 @@ This section will setup the variables that are needed for the game.
 
     d. For example, print("Hello World!") will output "Hello World!" for the user to read.
 
-## Implement Game Logic
+## Implementing Game Logic
 
 This section will focus on implementing the logic flow that determines who wins the rock, paper, scissor game.
 
@@ -212,8 +212,10 @@ else:
 
 ## Running The Game
 
+This section will focus on running your game through the terminal.
+
 12. Save the code by _clicking_ the "File" menu then _clicking_ on "Save" as shown below:
-    ![notepad save](./assets/codeS11.PNG)
+    ![notepad save](./assets/codeS12.png)
 
     !!! notes
 
@@ -276,4 +278,4 @@ By the end of this section, you will have successfully implemented the following
 
 The next section will focus on uploading your project onto GitHub, click the link below.
 
-:material-cloud-upload: [Uploading to GitHub](Upload%20to%20GitHub.md)
+:material-cloud-upload: [Uploading to GitHub](Uploading%20to%20GitHub.md)

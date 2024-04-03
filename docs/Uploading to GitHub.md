@@ -34,7 +34,7 @@ This section focuses on creating a `.git` directory to allow for version control
 
         You will not be able to see the `.git` directory because it is *hidden* by default.
 
-## Add Code to Git
+## Adding Code to Git
 
 This section focuses on adding your newly created game into version control.
 
@@ -74,7 +74,7 @@ This section focuses on adding your newly created game into version control.
 
         A good practice is to have clear and concise messages that tell other developers what you changed in your commit.
 
-## Create Online Repository on GitHub
+## Creating Online Repository on GitHub
 
 This section focuses on creating an online repository for you to upload your project to.
 
