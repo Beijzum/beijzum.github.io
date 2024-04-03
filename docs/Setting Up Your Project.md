@@ -187,10 +187,10 @@ This section will focus on how to create a project folder.
 
 By the end of this section, you will have successfully completed the following using only the terminal:
 
--   [x] Opening the terminal
--   [x] Navigate through file directories
--   [x] Created a folder to house projects
--   [x] Populate folders with empty files
+-   [x] Opened the terminal
+-   [x] Navigated through file directories
+-   [x] Created a directory for a project
+-   [x] Populated a folder with a file
 
 The next section will focus on coding the game itself, click on the link below.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-This section will focus uploading your code onto :material-github: [GitHub](https://github.com/). It is platform that hosts git repositories onto cloud, and allows developers to collaborate with each other.
+This section will focus uploading your code onto :material-github: [GitHub](https://github.com/). It is platform that hosts git repositories onto the cloud, which allows developers to collaborate with each other.
 
 !!! warning
 
@@ -74,9 +74,9 @@ This section focuses on adding your newly created game into version control.
 
         A good practice is to have clear and concise messages that tell other developers what you changed in your commit.
 
-## Creating Online Repository on GitHub
+## Creating Online Cloud Repository on GitHub
 
-This section focuses on creating an online repository for you to upload your project to.
+This section focuses on creating an online cloud repository for you to upload your project to.
 
 4.  Login to [GitHub](https://github.com/) and create a new repository as highlighted below:
 
@@ -106,9 +106,11 @@ This section focuses on creating an online repository for you to upload your pro
 
         ![create repository success](./assets/uploadS6Success.png)
 
-## Connecting Local Repository to Cloud
+        This newly created cloud repository will host your project, and make it easy for you to access the project remotely.
 
-This section focuses on connecting your local .git folder to the cloud/remote GitHub repository.
+## Connecting Local Repository to Cloud Repository
+
+This section focuses on connecting your local .git folder to the cloud GitHub repository.
 
 7.  Copy the new GitHub repository link:
     ![copy repository link](./assets/uploadS7.png)
@@ -169,10 +171,10 @@ This section focuses on connecting your local .git folder to the cloud/remote Gi
 
 By the end of this section, you will have successfully completed the following tasks important to every developer:
 
--   [x] Initialize a local repository
--   [x] Stage and commit files to a repository
--   [x] Create an online GitHub repository
--   [x] Connect a local repository to an online repository
+-   [x] Initialized a local repository
+-   [x] Staged and committed files to a repository
+-   [x] Hosted an GitHub repository online
+-   [x] Connected a local repository to a cloud repository in GitHub
 
 **Congratulations!** 🥳🎉 You have taken your first steps towards becoming a full-fledged developer. If you have encountered any problems throughout the tutorial, the next section is a compilation of commonly encountered issues.
 

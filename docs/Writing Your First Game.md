@@ -275,10 +275,10 @@ This section will focus on running your game through the terminal.
 
 By the end of this section, you will have successfully implemented the following concepts in Python:
 
--   [x] Import Python modules
--   [x] Get user input
--   [x] Generate random values
--   [x] Create logic flow
+-   [x] Imported a Python module
+-   [x] Created a command to get user input
+-   [x] Generated random values
+-   [x] Created a logic flow for a game
 
 The next section will focus on uploading your project onto GitHub, click the link below.
 
