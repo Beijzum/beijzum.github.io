@@ -184,7 +184,7 @@ This section will focus on implementing the logic flow that determines who wins 
 
     c. The "else" statement executes if the "if-else" statements all evaluate to "False".
 
-## The Final Code Snippet
+## Finalizing Code Snippet
 
 If you have followed the instructions correctly, then your file should look like the following:
 
