@@ -96,7 +96,7 @@ This section focuses on creating an online cloud repository for you to upload yo
 
     ![create repository](./assets/uploadS6.png)
 
-    a. You may change the project visibility to private, so that only you or project collaborators can view the project.
+    a. You may change the project visibility to private, so that only you and your project collaborators can view the project.
 
     b. All other settings can be left as default.
 
@@ -171,11 +171,13 @@ This section focuses on connecting your local .git folder to the cloud GitHub re
 
 By the end of this section, you will have successfully completed the following tasks important to every developer:
 
--   [x] Initialized a local repository
--   [x] Staged and committed files to a repository
--   [x] Hosted an GitHub repository online
--   [x] Connected a local repository to a cloud repository in GitHub
+-   [x] Initialized a local repository.
+-   [x] Staged and committed files to a repository.
+-   [x] Hosted an GitHub repository online.
+-   [x] Connected a local repository to a cloud repository in GitHub.
 
-**Congratulations!** 🥳🎉 You have taken your first steps towards becoming a full-fledged developer. If you have encountered any problems throughout the tutorial, the next section is a compilation of commonly encountered issues.
+**Congratulations!** 🥳🎉
+
+You have taken your first steps towards becoming a full-fledged developer. If you have encountered any problems throughout the tutorial, the next section is a compilation of commonly encountered issues.
 
 :material-cog-box: [Troubleshooting](Troubleshooting.md)
