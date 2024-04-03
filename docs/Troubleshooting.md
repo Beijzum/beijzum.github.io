@@ -1,5 +1,3 @@
-## Common Issues
-
 | Issue                     | Explanation                                       | Solution                                                                                                          |
 | ------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | File/Directory not found  | Cannot find the file/directory with the terminal. | Ensure that the name matches with the one you used to create the file/directory. Names are case-sensitive.        |
