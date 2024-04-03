@@ -38,7 +38,7 @@ This section focuses on creating a `.git` directory to allow for version control
 
 This section focuses on adding your newly created game into version control.
 
-2.  Stage file in the terminal
+2.  Stage file in the terminal by _typing_ the following:
 
     ```
     git add rock_paper_scissor.py
@@ -46,7 +46,7 @@ This section focuses on adding your newly created game into version control.
 
     a. The "git add" command stages the file. Staging a file means that you have marked a modified file in its current version to go into the next commit.
 
-1.  Commit file in the terminal
+3.  Commit file in the terminal by _typing_ the following:
 
     ```
     git commit -m "I made my first game!"
@@ -86,13 +86,13 @@ This section focuses on creating an online cloud repository for you to upload yo
 
     b. _Click_ on "New repository" next.
 
-5.  Enter a repository name
+5.  Enter a repository name by _typing_ the following:
 
     ![enter repository name](./assets/uploadS5.png)
 
-    a. If your project folder name is not `rock_paper_scissors`, enter the name you used instead.
+    a. If your project folder name is not `rock_paper_scissor`, enter the name you used instead.
 
-6.  Click create repository
+6.  Create repository by _clicking_ the following:
 
     ![create repository](./assets/uploadS6.png)
 
@@ -133,7 +133,7 @@ This section focuses on connecting your local .git folder to the cloud GitHub re
 
         You may CTRL + V to paste in the terminal. Some Windows version also allow _right-clicking_ in the terminal to paste.
 
-9.  Upload local repository to cloud repository:
+9.  Upload local repository to cloud repository by *typing* the following:
 
     ```
     git push -u origin master
