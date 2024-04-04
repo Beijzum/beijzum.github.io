@@ -1,6 +1,6 @@
 ## Overview
 
-This section will focus uploading your code onto :material-github: [GitHub](https://github.com/). It is platform that hosts git repositories onto the cloud, which allows developers to collaborate with each other.
+This section will focus uploading your code onto :material-github:[GitHub](https://github.com/). It is platform that hosts git repositories onto the cloud, which allows developers to collaborate with each other.
 
 !!! warning
 
@@ -10,7 +10,7 @@ This section will focus uploading your code onto :material-github: [GitHub](http
 
 ## Initializing Local Git Repository
 
-This section focuses on creating a `.git` directory to allow for version control in the terminal.
+This section focuses on creating a `.git` directory to allow for version control using the :octicons-terminal-24: terminal.
 
 1.  Create a `.git` directory in the terminal by _typing_ the following:
 
@@ -36,7 +36,7 @@ This section focuses on creating a `.git` directory to allow for version control
 
 ## Adding Code to Git
 
-This section focuses on adding your newly created game into version control.
+This section focuses on adding your newly created game into version control using the :octicons-terminal-24: terminal.
 
 2.  Stage file in the terminal by _typing_ the following:
 
@@ -76,9 +76,9 @@ This section focuses on adding your newly created game into version control.
 
 ## Creating Online Cloud Repository on GitHub
 
-This section focuses on creating an online cloud repository for you to upload your project to.
+This section focuses on creating an online cloud repository in :material-github:GitHub for you to upload your project to.
 
-4.  Login to [GitHub](https://github.com/) and create a new repository as highlighted below:
+1.  [Login](https://github.com/) to GitHub and create a new repository as highlighted below:
 
     ![make new repository](./assets/uploadS4a.png)
 
@@ -86,13 +86,13 @@ This section focuses on creating an online cloud repository for you to upload yo
 
     b. _Click_ on "New repository" next.
 
-5.  Enter a repository name by _typing_ the following:
+2.  Enter a repository name by _typing_ the following:
 
     ![enter repository name](./assets/uploadS5.png)
 
     a. If your project folder name is not `rock_paper_scissor`, enter the name you used instead.
 
-6.  Create repository by _clicking_ the following:
+3.  Create repository by _clicking_ the following:
 
     ![create repository](./assets/uploadS6.png)
 
@@ -110,7 +110,7 @@ This section focuses on creating an online cloud repository for you to upload yo
 
 ## Connecting Local Repository to Cloud Repository
 
-This section focuses on connecting your local .git folder to the cloud GitHub repository.
+This section focuses on connecting your local .git folder to the cloud :material-github:GitHub repository using the :octicons-terminal-24: terminal.
 
 7.  Copy the new GitHub repository link:
     ![copy repository link](./assets/uploadS7.png)

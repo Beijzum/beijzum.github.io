@@ -1,6 +1,6 @@
 ## Overview
 
-This section will focus on setting up a local projects folder using the terminal.
+This section will focus on setting up a local projects folder using the :octicons-terminal-24: terminal.
 
 !!! note
 
@@ -14,9 +14,9 @@ This section will focus on setting up a local projects folder using the terminal
 
 ## Opening the Terminal
 
-This section will focus on how to open the terminal on a computer with a Windows operating system.
+This section will focus on how to open the :octicons-terminal-24: terminal on a computer with a Windows operating system.
 
-1.  _Click_ on the Windows icon on the bottom left of your screen to access the "Start menu".
+1.  _Click_ on the :material-microsoft-windows: Windows icon on the bottom left of your screen to access the "Start menu".
     ![windows start menu](./assets/setupS1.png)
 
     !!! note
@@ -25,7 +25,7 @@ This section will focus on how to open the terminal on a computer with a Windows
 
         ![windows key](./assets/setupS2_windowskey.png)
 
-2.  _Type_ "command" or "cmd" into the search bar and _click_ on the application shown below to open it:
+2.  _Type_ "command" or "cmd" into the search bar and _click_ on the "Command Prompt" application shown below to open it:
 
     ```
     command
@@ -51,7 +51,7 @@ This section will focus on how to open the terminal on a computer with a Windows
 
 ## Checking for Python on Computer
 
-This section will ensure that ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is properly installed on your computer.
+This section will ensure that ![PythonIcon](./assets/python_icon_small.png)[Python](https://www.python.org/) is properly installed on your computer.
 
 3.  Check the Python version in the terminal by typing one of the two commands below:
 
@@ -83,9 +83,9 @@ This section will ensure that ![PythonIcon](./assets/python_icon_small.png) [Pyt
 
 ## Navigating Directories
 
-This section will focus on how to navigate file directories.
+This section will focus on how to navigate file directories using the :octicons-terminal-24: terminal.
 
-4.  List out all directories you are currently in by _typing_ the following:
+1.  List out all directories you are currently in by _typing_ the following:
 
     ```
     dir
@@ -97,7 +97,7 @@ This section will focus on how to navigate file directories.
 
     b. A directory will be labeled as "_< DIR >_".
 
-5.  Choose a directory that you want to put your project folder into.
+2.  Choose a directory that you want to put your project folder into.
 
     a. For example, you can choose an existing directory like `Documents` shown in the previous step.
 
@@ -105,7 +105,7 @@ This section will focus on how to navigate file directories.
 
         Practice good file management. Select a folder that will hold all your future projects and keep it organized.
 
-6.  Navigate to the chosen directory by _typing_ the following:
+3.  Navigate to the chosen directory by _typing_ the following:
 
     ```
     cd directory_name
@@ -123,7 +123,7 @@ This section will focus on how to navigate file directories.
 
 ## Creating Project Folder
 
-This section will focus on how to create a project folder.
+This section will focus on how to create a project folder using the :octicons-terminal-24: terminal.
 
 7.  Create the project folder by _typing_ the following:
 
@@ -149,7 +149,7 @@ This section will focus on how to create a project folder.
 
         If you cannot find the path specified, then go back to the first step [here](./Setting%20Up%20Your%20Project.md/#creating-project-folder).
 
-9.  Create a Python project with the name `rock_paper_scissor` by _typing_ the following:
+9.  Create a ![PythonIcon](./assets/python_icon_small.png)Python file with the name `rock_paper_scissor` by _typing_ the following:
 
     ```
     notepad rock_paper_scissor.py

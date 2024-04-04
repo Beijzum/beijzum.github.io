@@ -1,6 +1,6 @@
 ## Overview
 
-This section will focus on coding a simple game of rock paper scissor in Python.
+This section will focus on coding a simple game of rock paper scissor in ![PythonIcon](./assets/python_icon_small.png)Python.
 
 !!! note
 
@@ -182,7 +182,7 @@ This section will focus on implementing the logic flow that determines who wins 
 
 ## Finalizing the Code
 
-If you have followed the instructions correctly, then your file should look similar to the following:
+If you have followed the instructions correctly, then your ![PythonIcon](./assets/python_icon_small.png)Python file should look similar to the following:
 
 ```py
 import random
@@ -214,7 +214,7 @@ else:
 
 ## Running the Game
 
-This section will focus on running your game through the terminal.
+This section will focus on running your game through the :octicons-terminal-24: terminal.
 
 12. Save the code by _clicking_ the "File" menu then _clicking_ on "Save" as shown below:
     ![notepad save](./assets/codeS12.png)
@@ -225,7 +225,7 @@ This section will focus on running your game through the terminal.
 
 13. Go back to the terminal from :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md).
 
-14. Run the program in the `rock_paper_scissor` directory by _typing_ in one of the following two commands:
+14. Run the program in the `rock_paper_scissor` directory by _typing_ in one of the following two commands in the terminal:
 
     ```
     python rock_paper_scissor.py

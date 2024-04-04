@@ -19,6 +19,7 @@ You must have the following before proceeding:
 -   :material-microsoft-windows: A personal computer or laptop with a Windows operating system
 -   :material-lightbulb-on: Basic computer navigation knowledge
 -   :octicons-terminal-24: Basic command terminal knowledge
+-   :fontawesome-brands-chrome: Google Chrome, :fontawesome-brands-edge: Edge, or :simple-firefoxbrowser: Firefox web browsers with the latest updates
 
 ## Procedures Overview
 
