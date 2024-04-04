@@ -24,13 +24,11 @@ This section will setup the variables that are needed for the game.
     import random
     ```
 
-    a. The first line of code imports the _random_ module, which possesses a series of functions for generating or manipulating random integers.
+    a. The first line of code imports the _random_ module, which possesses many functions for generating or manipulating random integers.
 
-    b. This program will be using the random module randomly generate rock, paper, or scissor for the computer opponent.
+    b. The "import" keyword allows you to use modules in your code. This allows you to reuse code that you (or others) have created in any project.
 
-    !!! notes
-
-        The "import" keyword lets you import entire modules with helpful functions into your code. This allows you to reuse code that you (or others) have created in any project.
+    c. This program will be using the random module randomly generate the choices rock, paper, or scissor for the computer opponent.
 
 2.  Initialize all options by _typing_ the following:
 

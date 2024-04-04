@@ -123,17 +123,17 @@ This section focuses on connecting your local .git folder to the cloud GitHub re
     git remote add origin https://github.com/your_github_username/rock_paper_scissor.git
     ```
 
-    a. The "git remote add origin" command sets up a remote repository with the name "origin" at the address that follows.
+    a. The link after the word "origin" should be replaced with the link you copied into your clipboard in the previous step.
 
     b. In Git, "origin" is a shorthand name for the cloud repository that a project was originally cloned from.
 
-    c. The link after the word "origin" should be replaced with the link you copied into your clipboard in the previous step.
+    c. The "git remote add origin" command sets up a remote repository with the name "origin" at the address that follows.
 
     !!! notes
 
         You may CTRL + V to paste in the terminal. Some Windows version also allow _right-clicking_ in the terminal to paste.
 
-9.  Upload local repository to cloud repository by *typing* the following:
+9.  Upload local repository to cloud repository by _typing_ the following:
 
     ```
     git push -u origin master
