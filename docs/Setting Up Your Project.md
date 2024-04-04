@@ -51,7 +51,7 @@ This section will focus on how to open the :octicons-terminal-24: terminal on a 
 
 ## Checking for Python on Computer
 
-This section will ensure that ![PythonIcon](./assets/python_icon_small.png)[Python](https://www.python.org/) is properly installed on your computer.
+This section will ensure that ![PythonIcon](./assets/python_icon_small.png)[Python](https://www.python.org/) is properly installed on your computer using the :octicons-terminal-24: terminal.
 
 3.  Check the Python version in the terminal by typing one of the two commands below:
 
