@@ -91,13 +91,13 @@ This section will focus on implementing the logic flow that determines who wins 
 
     a. This line of code checks if the user input is valid choice using the tuple initialized in _step 2_ of the [previous section](./Writing%20Your%20First%20Game.md/#preparing-game-variables).
 
-    b. "not" is a conditional statement that executes a block of code evaluates to false.
+    b. The "if" keyword is a conditional statement used to execute a block of code only when a specific condition is met.
 
-    c. "in" is an operator that checks whether a value exists in the given sequence.
+    c. "not" is a conditional statement that executes a block of code only when the given condition evaluates to false.
 
-    d. If neither "rock", "paper", nor "scissor" is typed in, then the program will print an error message.
+    d. "in" is an operator that checks whether a value exists in the given sequence.
 
-    e. The "if" keyword is a conditional statement used to execute a block of code only when a specific condition is met.
+    e. If neither "rock", "paper", nor "scissor" is typed in, then the program will print an error message.
 
     !!! notes
 
@@ -120,7 +120,7 @@ This section will focus on implementing the logic flow that determines who wins 
 
     a. The "==" operator compares the value or equality between two objects.
 
-    b. In this case, this line of code checks if the user input is the same as the computer's choice. If it is the same, then the program will print "Tie!".
+    b. This line of code checks if the user input is the same as the computer's choice. If it is the same, then the program will print "Tie!".
 
     c. The "elif" keyword, also known as "if-else", often follows after an "if" statement. It functions the same as an "if" statement.
 
@@ -214,16 +214,24 @@ else:
 
 ## Running the Game
 
-This section will focus on running your game through the :octicons-terminal-24: terminal.
+This section will focus on running your game using the :octicons-terminal-24: terminal.
 
-12. Save the code by _clicking_ the "File" menu then _clicking_ on "Save" as shown below:
+12. Save the code by _clicking_ the "File" menu in the top left of notepad, and then _clicking_ on "Save" as shown below:
     ![notepad save](./assets/codeS12.png)
 
     !!! notes
 
         You may also save the file by using the CTRL + S save shortcut on your keyboard.
 
-13. Go back to the terminal from :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md).
+13. Return to the terminal from the previous :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md) section.
+
+    !!! warning
+
+        Ensure that you are in the `rock_paper_scissor` directory.
+
+        If you did not close the terminal from the previous section, you should still be in the `rock_paper_scissor` directory.
+
+        If you closed the terminal, refer back to "Setting Up Your Project" under the "Navigating Directories" section [here](./Setting%20Up%20Your%20Project.md/#navigating-directories).
 
 14. Run the program in the `rock_paper_scissor` directory by _typing_ in one of the following two commands in the terminal:
 
@@ -236,14 +244,6 @@ This section will focus on running your game through the :octicons-terminal-24: 
     ```
     python3 rock_paper_scissor.py
     ```
-
-    !!! warning
-
-        Ensure that you are in the `rock_paper_scissor` directory.
-
-        If you did not close the terminal from the previous section, you should still be in the `rock_paper_scissor` directory.
-
-        If you closed the terminal, refer back to "Setting Up Your Project" under the "Navigating Directories" section [here](./Setting%20Up%20Your%20Project.md/#navigating-directories).
 
 15. Enjoy your game!
 
