@@ -25,9 +25,13 @@ You must have the following before proceeding:
 
 The main sections of this document should be read in the order below:
 
--   :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md)
--   :fontawesome-solid-code: [Writing Your First Game](./Writing%20Your%20First%20Game.md)
--   :material-cloud-upload: [Uploading to GitHub](Uploading%20to%20GitHub.md)
+1. :file_folder: [Setting Up Your Project](./Setting%20Up%20Your%20Project.md)
+2. :fontawesome-solid-code: [Writing Your First Game](./Writing%20Your%20First%20Game.md)
+3. :material-cloud-upload: [Uploading to GitHub](Uploading%20to%20GitHub.md)
+
+    a. You may navigate through this document using the _table of contents_ on the left side of this document.
+
+    b. You may also navigate by _clicking_ the next and previous section arrows at the bottom (footer) of this document.
 
 ## Typographical Conventions
 
@@ -69,6 +73,8 @@ This document uses the following style for presenting information:
 
 ## Notes and Warning Messages
 
+This document uses the following message block styles for presenting information:
+
 !!! note
 
     Explains additional details.
@@ -84,3 +90,7 @@ This document uses the following style for presenting information:
 !!! failure
 
     Explains what actions or errors may crash the program. The issue must be resolved before continuing with the document.
+
+## Next Steps
+
+Once you have read all the information on this page, please proceed to _Setting Up Your Project_.

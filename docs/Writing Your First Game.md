@@ -278,6 +278,4 @@ By the end of this section, you will have successfully implemented the following
 -   [x] Generated random values.
 -   [x] Created a logic flow for a game.
 
-The next section will focus on uploading your project onto GitHub, click the link below.
-
-:material-cloud-upload: [Uploading to GitHub](Uploading%20to%20GitHub.md)
+The next section will focus on uploading your project onto GitHub. Please proceed to _Uploading to GitHub_.

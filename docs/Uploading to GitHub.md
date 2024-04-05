@@ -178,6 +178,8 @@ By the end of this section, you will have successfully completed the following t
 
 **Congratulations!** 🥳🎉
 
-You have taken your first steps towards becoming a full-fledged developer. If you have encountered any problems throughout the tutorial, the next section is a compilation of commonly encountered issues.
+You have taken your first steps towards becoming a full-fledged developer.
 
-:material-cog-box: [Troubleshooting](Troubleshooting.md)
+If you have encountered any problems throughout the tutorial, please proceed to _Troubleshooting_ for solutions to common problems.
+
+If you need more explanation on some of the terms used in this document, please proceed to _Glossary_ for definitions to the terms used in this document.
