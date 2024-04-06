@@ -73,9 +73,9 @@ This document uses the following style for presenting information:
 
 5. Terminal commands and Python keywords mentioned outside of code blocks will look like the following:
 
-    a. Python keywords like "print()" will look like: `print()`. Variable names like "user_input" will look like `user_input`.
+    a. Python keywords like "print()" will look like `print()`. Variable names like "user_input" will look like `user_input`.
 
-    b. Terminal commands will look `git init`.
+    b. Terminal commands like "git init" will look like `git init`.
 
 ## Notes and Warning Messages
 
