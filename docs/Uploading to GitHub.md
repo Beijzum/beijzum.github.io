@@ -18,7 +18,7 @@ This section focuses on creating a `.git` directory to allow for version control
     git init
     ```
 
-    a. The "git init" command creates a new Git repository. It is the first step in implementing version control to your project.
+    a. The `git init` command creates a new Git repository. It is the first step in implementing version control to your project.
 
     b. The `.git` directory is part of the version control system that allows developers to create and retrieve different versions of any project. This allows for version rollbacks if any major mistakes occur.
 
@@ -44,7 +44,7 @@ This section focuses on adding your newly created game into version control usin
     git add rock_paper_scissor.py
     ```
 
-    a. The "git add" command stages the file. Staging a file means that you have marked a modified file in its current version to go into the next commit.
+    a. The `git add` command stages the file. Staging a file means that you have marked a modified file in its current version to go into the next commit.
 
 3.  Commit file in the terminal by _typing_ the following:
 
@@ -52,9 +52,9 @@ This section focuses on adding your newly created game into version control usin
     git commit -m "I made my first game!"
     ```
 
-    a. Commits can be thought of as snapshots or milestones along the timeline of a project. A "git commit" command captures a state of a project at that point in time.
+    a. Commits can be thought of as snapshots or milestones along the timeline of a project. A `git commit` command captures a state of a project at that point in time.
 
-    b. Everything in quotation marks after "-m" is a message that tells other developers what changes you made for the current commit. You can replace the message with anything you like as long as it is wrapped in quotation marks.
+    b. Everything in quotation marks after `-m` is a message that tells other developers what changes you made for the current commit. You can replace the message with anything you like as long as it is wrapped in quotation marks.
 
     !!! success
 
@@ -64,11 +64,11 @@ This section focuses on adding your newly created game into version control usin
 
     !!! failure
 
-        If you forget to "git add" to stage a file after modifying it, then the following message will be shown:
+        If you forget to `git add` to stage a file after modifying it, then the following message will be shown:
 
         ![add code to git fail](./assets/uploadS3Failure.png)
 
-        Stage the file and then commit the file to fix this issue.
+        Follow the instructions [here](Uploading%20to%20GitHub.md/#adding-code-to-git) to stage the file and then commit the file to fix this issue.
 
     !!! notes
 
@@ -123,11 +123,11 @@ This section focuses on connecting your local .git folder to the cloud :material
     git remote add origin https://github.com/your_github_username/rock_paper_scissor.git
     ```
 
-    a. The link after the word "origin" should be replaced with the link you copied into your clipboard in the previous step.
+    a. The link after the word `origin` should be replaced with the link you copied into your clipboard in the previous step.
 
     b. In Git, "origin" is a shorthand name for the cloud repository that a project was originally cloned from.
 
-    c. The "git remote add origin" command sets up a remote repository with the name "origin" at the address that follows.
+    c. The `git remote add origin` command sets up a remote repository with the name "origin" at the address that follows.
 
     !!! notes
 
@@ -139,9 +139,9 @@ This section focuses on connecting your local .git folder to the cloud :material
     git push -u origin master
     ```
 
-    a. The option "-u" means to set "upstream". It configures the local branch to track the remote branch.
+    a. The option `-u` means to set `upstream`. It configures the local branch to track the remote branch.
 
-    b. "master" is the default name given to the first branch present in a Git repository when it is initialized.
+    b. `master` is the default name given to the first branch present in a Git repository when it is initialized.
 
     c. Some users will have "master" as a default name, while some others will have "main" as a default name. If you encounter an error, try the other.
 
@@ -153,11 +153,11 @@ This section focuses on connecting your local .git folder to the cloud :material
 
     !!! failure
 
-        If you type another common branch name like "main", then there is a chance that you will get a "refspec" error shown below:
+        If you type another common branch name like `main`, then there is a chance that you will get a "refspec" error shown below:
 
         ![add remote origin image fail](./assets/uploadS9Failure.png)
 
-        If "main" does not work, try "master". If "master" does not work, try "main".
+        If `main` does not work, try `master`. If `master` does not work, try `main`.
 
 10. Visit the GitHub repository to ensure changes have been made:
 

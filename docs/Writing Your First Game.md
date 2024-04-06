@@ -24,11 +24,11 @@ This section will setup the variables that are needed for the game.
     import random
     ```
 
-    a. The first line of code imports the _random_ module, which possesses many functions for generating or manipulating random integers.
+    a. The first line of code imports the `random` module, which possesses many functions for generating or manipulating random integers.
 
-    b. The "import" keyword allows you to use modules in your code. This allows you to reuse code that you (or others) have created in any project.
+    b. The `import` keyword allows you to use modules in your code. This allows you to reuse code that you (or others) have created in any project.
 
-    c. This program will be using the random module randomly generate the choices rock, paper, or scissor for the computer opponent.
+    c. This program will be using the `random` module randomly generate the choices rock, paper, or scissor for the computer opponent.
 
 2.  Initialize all options by _typing_ the following:
 
@@ -36,11 +36,11 @@ This section will setup the variables that are needed for the game.
     options = ("rock", "paper", "scissor")
     ```
 
-    a. This line of code sets "rock, paper, scissor" as a tuple with the variable name "options".
+    a. This line of code sets "rock, paper, scissor" as a tuple with the variable name `options`.
 
     b. A tuple is a collection of data. It is a data structure that cannot be modified. Tuples use parentheses to define their elements.
 
-    c. Later, you will use the "random" module to access functions that randomly choose between rock, paper, and scissor.
+    c. Later, you will use the `random` module to access functions that randomly choose between rock, paper, and scissor.
 
 3.  Get player choice by _typing_ the following:
 
@@ -50,9 +50,9 @@ This section will setup the variables that are needed for the game.
 
     a. This line of code pauses the program, displays the prompt "Rock, paper, or scissor?", and waits for a player to type something into the program.
 
-    b. .lower() is a command that returns the lowercase string from the given string. In this case, any string that the user inputs will always be lowercase.
+    b. `.lower()` is a command that returns the lowercase string from the given string. In this case, any string that the user inputs will always be lowercase.
 
-    c. For example, "rOcK" will be "rock" when .lower() is used. This reduces the chance of user error by narrowing down the user input.
+    c. For example, "rOcK" will be "rock" when `.lower()` is used. This reduces the chance of user error by narrowing down the user input.
 
 4.  Get computer choice by _typing_ the following:
 
@@ -62,7 +62,7 @@ This section will setup the variables that are needed for the game.
 
     a. This line of code randomly selects "rock", "paper", or "scissor" from the tuple initialized back in _step 2_ of ["Prepare Game Variables"](./Writing%20Your%20First%20Game.md/#preparing-game-variables).
 
-    b. The choice() method (from the "random" module) returns a randomly selected element from the specified sequence.
+    b. The `choice()` method (from the `random` module) returns a randomly selected element from the specified sequence.
 
 5.  Print out computer's choice by _typing_ the following:
 
@@ -74,9 +74,9 @@ This section will setup the variables that are needed for the game.
 
     b. This line of code uses "f-strings", which is a concise and intuitive way to display variables in strings.
 
-    c. print() is a function that outputs text or variables for the user to read.
+    c. `print()` is a function that outputs text or variables for the user to read.
 
-    d. For example, print("Hello World!") will output "Hello World!" for the user to read.
+    d. For example, `print("Hello World!")` will output "Hello World!" for the user to read.
 
 ## Implementing Game Logic
 
@@ -91,11 +91,11 @@ This section will focus on implementing the logic flow that determines who wins 
 
     a. This line of code checks if the user input is valid choice using the tuple initialized in _step 2_ of the [previous section](./Writing%20Your%20First%20Game.md/#preparing-game-variables).
 
-    b. The "if" keyword is a conditional statement used to execute a block of code only when a specific condition is met.
+    b. The `if` keyword is a conditional statement used to execute a block of code only when a specific condition is met.
 
-    c. "not" is a conditional statement that executes a block of code only when the given condition evaluates to false.
+    c. `not` is a conditional statement that executes a block of code only when the given condition evaluates to false.
 
-    d. "in" is an operator that checks whether a value exists in the given sequence.
+    d. `in` is an operator that checks whether a value exists in the given sequence.
 
     e. If neither "rock", "paper", nor "scissor" is typed in, then the program will print an error message.
 
@@ -118,11 +118,11 @@ This section will focus on implementing the logic flow that determines who wins 
         print("Tie!")
     ```
 
-    a. The "==" operator compares the value or equality between two objects.
+    a. The `==` operator compares the value or equality between two objects.
 
     b. This line of code checks if the user input is the same as the computer's choice. If it is the same, then the program will print "Tie!".
 
-    c. The "elif" keyword, also known as "if-else", follows after an "if" statement. It functions the same as an "if" statement.
+    c. The `elif` keyword, also known as "if-else", follows after an `if` keyword. It functions the same as an `if` statement.
 
 8.  Handle user choice of rock by _typing_ the following:
 
@@ -133,9 +133,9 @@ This section will focus on implementing the logic flow that determines who wins 
 
     a. This line of code compares the player's "rock" choice to the computer's "scissor" choice, which will result in the player winning.
 
-    b. [0] is the first element of the "options" tuple, so options[0] is "rock".
+    b. [0] is the first element of the `options` tuple, so `options[0]` is "rock".
 
-    c. [2] is the third element of the "options" tuple, so options[2] is "scissor".
+    c. [2] is the third element of the `options` tuple, so `options[2]` is "scissor".
 
     !!! notes
 
@@ -150,9 +150,9 @@ This section will focus on implementing the logic flow that determines who wins 
 
     a. This line of code compares the player's "paper" choice to the computer's "rock" choice, which will result in the player winning.
 
-    b. [1] is the second element of the "options" tuple, so options[1] is "paper".
+    b. [1] is the second element of the `options` tuple, so `options[1]` is "paper".
 
-    c. [0] is the first element of the "options" tuple, so options[0] is "rock".
+    c. [0] is the first element of the `options` tuple, so `options[0]` is "rock".
 
 10. Handle user choice of scissor by _typing_ the following:
 
@@ -163,9 +163,9 @@ This section will focus on implementing the logic flow that determines who wins 
 
     a. This line of code compares the player's "scissor" choice to the computer's "paper" choice, which will result in the player winning.
 
-    b. [2] is the third element of the "options" tuple, so options[2] is "scissor".
+    b. [2] is the third element of the `options` tuple, so `options[2]` is "scissor".
 
-    c. [1] is the second element of the "options" tuple, so options[1] is "paper".
+    c. [1] is the second element of the `options` tuple, so `options[1]` is "paper".
 
 11. Handle lose scenario by _typing_ the following:
 
@@ -178,7 +178,7 @@ This section will focus on implementing the logic flow that determines who wins 
 
     b. This means that the player loses by default if the player does not meet any of the above requirements.
 
-    c. The "else" statement executes if the "if-else" statements all evaluate to "False".
+    c. The `else` keyword executes if the "if-else" code block all evaluate to `False`.
 
 ## Finalizing the Code
 
@@ -255,13 +255,13 @@ This section will focus on running your game using the :octicons-terminal-24: te
 
     !!! failure
 
-        If there is a syntax error, then check which line can be found. For example, the picture below shows that the error is in line 17, and the error itself is around the "else" keyword. The error can be caused by a lack of indentation, which can lead to statements belonging to the wrong block of code.
+        If there is a syntax error, then check which line can be found. For example, the picture below shows that the error is in line 17, and the error itself is around the `else` keyword. The error can be caused by a lack of indentation, which can lead to statements belonging to the wrong block of code.
 
         ![syntax error](./assets/codeS15b.png)
 
     !!! failure
 
-        If there is a name error and "random" is not defined, then it is an import error. Add "import random" as the first line of code to fix this issue.
+        If there is a name error and `random` is not defined, then it is an import error. Add `import random` as the first line of code to fix this issue.
 
         ![import error](./assets/codeS15c.png)
 

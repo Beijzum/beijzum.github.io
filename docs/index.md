@@ -47,7 +47,7 @@ This document uses the following style for presenting information:
 
     a. You must press the "enter" or "return" key on your keyboard after typing the command to activate the command.
 
-3. Python code snippets will look like this:
+3. Python code snippets will look like the following:
 
     ```py
     print("Hello World!")
@@ -65,11 +65,17 @@ This document uses the following style for presenting information:
     print("Hello World!")
     ```
 
-4. Directory and file names.
+4. Directory and file names will look like the following:
 
-    Directory names will look like `directory_name`.
+    a. Directory names will look like `directory_name`.
 
-    File names will look like `filename.extension` with the period designating the file's extension.
+    b. File names will look like `filename.extension` with the period designating the file's extension.
+
+5. Terminal commands and Python keywords mentioned outside of code blocks will look like the following:
+
+    a. Python keywords like "print()" will look like: `print()`. Variable names like "user_input" will look like `user_input`.
+
+    b. Terminal commands will look `git init`.
 
 ## Notes and Warning Messages
 

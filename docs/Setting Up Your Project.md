@@ -25,7 +25,7 @@ This section will focus on how to open the :octicons-terminal-24: terminal on a 
 
         ![windows key](./assets/setupS2_windowskey.png)
 
-2.  _Type_ "command" or "cmd" into the search bar and _click_ on the "Command Prompt" application shown below to open it:
+2.  _Type_ `command` or `cmd` into the search bar and _click_ on the "Command Prompt" application shown below to open it:
 
     ```
     command
@@ -41,7 +41,7 @@ This section will focus on how to open the :octicons-terminal-24: terminal on a 
 
     !!! note
 
-        If there is no search bar, you may also type "cmd" right after accessing the Start menu.
+        If there is no search bar, you may also type `cmd` right after accessing the Start menu.
 
     !!! success
 
@@ -65,7 +65,7 @@ This section will ensure that ![PythonIcon](./assets/python_icon_small.png)[Pyth
     python3 --version
     ```
 
-    a. If "python" does not work, then try "python3" instead.
+    a. If `python` does not work, then try `python3` instead.
 
     !!! success
 
@@ -95,7 +95,7 @@ This section will focus on how to navigate file directories using the :octicons-
 
     ![successful dir](./assets/setupS4.png)
 
-    b. A directory will be labeled as "_< DIR >_".
+    b. A directory will be labeled as `<DIR>`.
 
 2.  Choose a directory that you want to put your project folder into.
 
@@ -111,13 +111,13 @@ This section will focus on how to navigate file directories using the :octicons-
     cd directory_name
     ```
 
-    a. "cd", also known as "chdir", is a command that changes your current working directory to another directory.
+    a. `cd`, also known as `chdir`, is a command that changes your current working directory to another directory.
 
-    b. `directory_name` is a placeholder name. You can replace it with any directory that is listed when you typed "dir" back in the first step [here](./Setting%20Up%20Your%20Project.md/#navigating-directories).
+    b. `directory_name` is a placeholder name. You can replace it with any directory that is listed when you typed `dir` back in the first step [here](./Setting%20Up%20Your%20Project.md/#navigating-directories).
 
     !!! success
 
-        Successfully navigating to a directory using the terminal command "cd" will looking something like this:
+        Successfully navigating to a directory using the terminal command `cd` will looking something like this:
 
         ![successful nav directory](./assets/setupS6.png)
 
@@ -173,7 +173,7 @@ This section will focus on how to create a project folder using the :octicons-te
 
         If you're successul, you will see the `rock_paper_scissor.py` file inside the `rock_paper_scissor` directory.
 
-        It should *not* be labelled with < DIR > because it is a file.
+        It should *not* be labelled with `<DIR>` because it is a file.
 
         ![successrps.py](./assets/setupS11.png)
 
