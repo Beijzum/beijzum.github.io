@@ -54,7 +54,7 @@ This section focuses on adding your newly created game into version control usin
 
     a. Commits can be thought of as snapshots or milestones along the timeline of a project. A `git commit` command captures a state of a project at that point in time.
 
-    b. Everything in quotation marks after `-m` is a message that tells other developers what changes you made for the current commit. You can replace the message with anything you like as long as it is wrapped in quotation marks.
+    b. Everything in quotation marks after the `-m` option sets a message that tells other developers what changes you made for the current commit. You can replace the message with anything you like as long as it is wrapped in quotation marks.
 
     !!! success
 

@@ -50,9 +50,9 @@ This section will setup the variables that are needed for the game.
 
     a. This line of code pauses the program, displays the prompt "Rock, paper, or scissor?", and waits for a player to type something into the program.
 
-    b. `.lower()` is a command that returns the lowercase string from the given string. In this case, any string that the user inputs will always be lowercase.
+    b. `.lower()` is a command that returns the lowercase string from the given string.
 
-    c. For example, "rOcK" will be "rock" when `.lower()` is used. This reduces the chance of user error by narrowing down the user input.
+    c. In this case, any string that the user inputs will always be lowercase. For example, "rOcK" will be "rock" when `.lower()` is used. This reduces the chance of user error by narrowing down the user input.
 
 4.  Get computer choice by _typing_ the following:
 
@@ -74,9 +74,7 @@ This section will setup the variables that are needed for the game.
 
     b. This line of code uses "f-strings", which is a concise and intuitive way to display variables in strings.
 
-    c. `print()` is a function that outputs text or variables for the user to read.
-
-    d. For example, `print("Hello World!")` will output "Hello World!" for the user to read.
+    c. `print()` is a function that outputs text or variables for the user to read. For example, `print("Hello World!")` will output "Hello World!" for the user to read.
 
 ## Implementing Game Logic
 
@@ -174,9 +172,7 @@ This section will focus on implementing the logic flow that determines who wins 
         print("You Lose!")
     ```
 
-    a. This line of code runs when none of the above requirements are met.
-
-    b. This means that the player loses by default if the player does not meet any of the above requirements.
+    a. This line of code runs when none of the above requirements are met. This means that the player loses by default if the player does not meet any of the above requirements.
 
     c. The `else` keyword executes if the "if-else" code block all evaluate to `False`.
 
