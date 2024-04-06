@@ -3,7 +3,7 @@
 Welcome. This document will help you create a simple Python game on a Windows operating system. It will also help you upload your Python project to GitHub. The goal is to help first-term British Columbia Institute of Technology (BCIT) Computer Systems Technology (CST) students get started on their coding journey. This guide will help you become more comfortable with writing code and using developer platforms.
 
 > ![PythonIcon](./assets/python_icon_small.png) [Python](https://www.python.org/) is a high-level programming language, which means it is easy to read and understand for humans.
->
+
 > :material-github: [GitHub](https://github.com/) is a developer platform that allows developers to create, store, manage, and share their code.
 
 ## Intended Users
@@ -29,9 +29,9 @@ The main sections of this document should be read in the order below:
 2. :fontawesome-solid-code: [Writing Your First Game](./Writing%20Your%20First%20Game.md)
 3. :material-cloud-upload: [Uploading to GitHub](Uploading%20to%20GitHub.md)
 
-    a. You may navigate through this document using the _table of contents_ on the left side of this document.
+> You may navigate through this document using the _table of contents_ on the left side of this document. It may also appear as a hamburger menu in the top left.
 
-    b. You may also navigate by _clicking_ the next and previous section arrows at the bottom (footer) of this document.
+> You may also navigate by _clicking_ the next and previous section arrows at the bottom (footer) of this document.
 
 ## Typographical Conventions
 
@@ -39,7 +39,7 @@ This document uses the following style for presenting information:
 
 1. When _clicking_ is mentioned, it means left-clicking on your mouse.
 
-2. _Typing_ in commands in regards to the _terminal_ will look like the following:
+2. _Typing_ in commands in regards to the terminal will look like the following:
 
     ```
     Type these words

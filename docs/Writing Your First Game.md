@@ -122,7 +122,7 @@ This section will focus on implementing the logic flow that determines who wins 
 
     b. This line of code checks if the user input is the same as the computer's choice. If it is the same, then the program will print "Tie!".
 
-    c. The "elif" keyword, also known as "if-else", often follows after an "if" statement. It functions the same as an "if" statement.
+    c. The "elif" keyword, also known as "if-else", follows after an "if" statement. It functions the same as an "if" statement.
 
 8.  Handle user choice of rock by _typing_ the following:
 
@@ -267,7 +267,7 @@ This section will focus on running your game using the :octicons-terminal-24: te
 
     !!! warning
 
-        If your code does not run, please check it [here](./Writing%20Your%20First%20Game.md/#finalizing-the-code).
+        If your code does not run, please compare your code in the [finalized code section](./Writing%20Your%20First%20Game.md/#finalizing-the-code).
 
 ## Conclusion
 
