@@ -167,6 +167,10 @@ This section focuses on connecting your local .git folder to the cloud :material
 
         ![github repo](./assets/uploadS10.png)
 
+    !!! notes
+
+        You may have to refresh your rock_paper_scissor GitHub repository page to see your changes.
+
 ## Conclusion
 
 By the end of this section, you will have successfully completed the following tasks important to every developer:
