@@ -1,0 +1,774 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Setting%20Up%20Your%20Project/">
+      
+      
+        <link rel="next" href="../Uploading%20to%20GitHub/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Writing Your First Game - Writing Your First Python Game</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Writing Your First Python Game" class="md-header__button md-logo" aria-label="Writing Your First Python Game" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Writing Your First Python Game
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Writing Your First Game
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Writing Your First Python Game" class="md-nav__button md-logo" aria-label="Writing Your First Python Game" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Writing Your First Python Game
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setting%20Up%20Your%20Project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting Up Your Project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Writing Your First Game
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Writing Your First Game
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-game-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparing Game Variables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementing-game-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementing Game Logic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finalizing-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finalizing the Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-the-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running the Game
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Uploading%20to%20GitHub/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uploading to GitHub
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Troubleshooting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Writing Your First Game</h1>
+
+<h2 id="overview">Overview</h2>
+<p>This section will focus on coding a simple game of rock paper scissor in <img alt="PythonIcon" src="../assets/python_icon_small.png" />Python.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Variable names in code are <em>case-sensitive</em>. If you wish to use your own variable names, please ensure that they are consistent throughout the entire file.</p>
+<p>A common mistake that developers make is incorrectly typing a variable name, which could cause errors in the program.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You must have the <code>rock_paper_scissor.py</code> file opened in notepad before proceeding. You will be typing your code inside this file using notepad.</p>
+<p>Please read the typographical conventions <a href="../#typographical-conventions">here</a> before continuing. Remember to press the "enter/return" key after typing the line(s) of code.</p>
+</div>
+<h2 id="preparing-game-variables">Preparing Game Variables</h2>
+<p>This section will setup the variables that are needed for the game.</p>
+<ol>
+<li>
+<p>Import the <code>random</code> module by <em>typing</em> the following in your newly created <code>rock_paper_scissor.py</code> notepad file:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span> <span class="nn">random</span>
+</span></code></pre></div>
+<p>a. This first line of code imports the <code>random</code> module, which possesses many functions for generating or manipulating random integers.</p>
+<p>b. The <code>import</code> keyword allows you to use modules in your code. This allows you to reuse code that you (or others) have created in any project.</p>
+<p>c. This program will be using the <code>random</code> module randomly generate the choices rock, paper, or scissor for the computer opponent.</p>
+</li>
+<li>
+<p>Initialize all options by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">options</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;rock&quot;</span><span class="p">,</span> <span class="s2">&quot;paper&quot;</span><span class="p">,</span> <span class="s2">&quot;scissor&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. This line of code sets "rock, paper, scissor" as a tuple with the variable name <code>options</code>.</p>
+<p>b. A tuple is a collection of data. It is a data structure that cannot be modified. Tuples use parentheses to define their elements.</p>
+<p>c. Later, you will use the <code>random</code> module to access functions that randomly choose between rock, paper, and scissor.</p>
+</li>
+<li>
+<p>Get player choice by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">user_input</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Rock, paper, or scissor? &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+</span></code></pre></div>
+<p>a. This line of code pauses the program, displays the prompt "Rock, paper, or scissor?", and waits for a player to type something into the program.</p>
+<p>b. <code>.lower()</code> is a command that returns the lowercase string from the given string.</p>
+<p>c. In this case, any string that the user inputs will always be lowercase. For example, "rOcK" will be "rock" when <code>.lower()</code> is used. This reduces the chance of user error by narrowing down the user input.</p>
+</li>
+<li>
+<p>Get computer choice by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">computer_choice</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">options</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. This line of code randomly selects "rock", "paper", or "scissor" from the tuple initialized back in <em>step 2</em> of <a href="./#preparing-game-variables">"Prepare Game Variables"</a>.</p>
+<p>b. The <code>choice()</code> method (from the <code>random</code> module) returns a randomly selected element from the specified sequence.</p>
+</li>
+<li>
+<p>Print out computer's choice by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Computer chooses </span><span class="si">{</span><span class="n">computer_choice</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. This line of code lets the player know what the computer has chosen as its option.</p>
+<p>b. This line of code uses "f-strings", which is a concise and intuitive way to display variables in strings.</p>
+<p>c. <code>print()</code> is a function that outputs text or variables for the user to read. For example, <code>print("Hello World!")</code> will output "Hello World!" for the user to read.</p>
+</li>
+</ol>
+<h2 id="implementing-game-logic">Implementing Game Logic</h2>
+<p>This section will focus on implementing the logic flow that determines who wins the rock, paper, scissor game.</p>
+<ol>
+<li>
+<p>Handle invalid choices by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">if</span> <span class="n">user_input</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">options</span><span class="p">:</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Funny error message here.&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. This line of code checks if the user input is valid choice using the tuple initialized in <em>step 2</em> of the <a href="./#preparing-game-variables">previous section</a>.</p>
+<p>b. The <code>if</code> keyword is a conditional statement used to execute a block of code only when a specific condition is met.</p>
+<p>c. <code>not</code> is a conditional statement that executes a block of code only when the given condition evaluates to false.</p>
+<p>d. <code>in</code> is an operator that checks whether a value exists in the given sequence.</p>
+<p>e. If neither "rock", "paper", nor "scissor" is typed in, then the program will print an error message.</p>
+<div class="admonition notes">
+<p class="admonition-title">Notes</p>
+<p>It is good practice to let the user know what kind of error they incurred.</p>
+<p>For example, the error message should let the user know that they should be typing in "rock", "paper", or "scissor" into the program.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Python uses indentation/white space as a way to interpret which group of statements belong to a particular block of code.</p>
+<p>Press the "tab" key to properly indent your code. You may also press the "space" key four times to mimic one "tab" press.</p>
+</div>
+</li>
+<li>
+<p>Handle ties by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">elif</span> <span class="n">user_input</span> <span class="o">==</span> <span class="n">computer_choice</span><span class="p">:</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tie!&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. The <code>==</code> operator compares the value or equality between two objects.</p>
+<p>b. This line of code checks if the user input is the same as the computer's choice. If it is the same, then the program will print "Tie!".</p>
+<p>c. The <code>elif</code> keyword, also known as "if-else", follows after an <code>if</code> keyword. It functions the same as an <code>if</code> statement.</p>
+</li>
+<li>
+<p>Handle user choice of rock by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">elif</span> <span class="n">user_input</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">computer_choice</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You Win!&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. This line of code compares the player's "rock" choice to the computer's "scissor" choice, which will result in the player winning.</p>
+<p>b. [0] is the first element of the <code>options</code> tuple, so <code>options[0]</code> is "rock".</p>
+<p>c. [2] is the third element of the <code>options</code> tuple, so <code>options[2]</code> is "scissor".</p>
+<div class="admonition notes">
+<p class="admonition-title">Notes</p>
+<p>In programming, many data structures start counting at 0 instead of 1.</p>
+</div>
+</li>
+<li>
+<p>Handle user choice of paper by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">elif</span> <span class="n">user_input</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> <span class="n">computer_choice</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You Win!&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. This line of code compares the player's "paper" choice to the computer's "rock" choice, which will result in the player winning.</p>
+<p>b. [1] is the second element of the <code>options</code> tuple, so <code>options[1]</code> is "paper".</p>
+<p>c. [0] is the first element of the <code>options</code> tuple, so <code>options[0]</code> is "rock".</p>
+</li>
+<li>
+<p>Handle user choice of scissor by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="k">elif</span> <span class="n">user_input</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="ow">and</span> <span class="n">computer_choice</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You Win!&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. This line of code compares the player's "scissor" choice to the computer's "paper" choice, which will result in the player winning.</p>
+<p>b. [2] is the third element of the <code>options</code> tuple, so <code>options[2]</code> is "scissor".</p>
+<p>c. [1] is the second element of the <code>options</code> tuple, so <code>options[1]</code> is "paper".</p>
+</li>
+<li>
+<p>Handle lose scenario by <em>typing</em> the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="k">else</span><span class="p">:</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You Lose!&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>a. This line of code runs when none of the above requirements are met. This means that the player loses by default if the player does not meet any of the above requirements.</p>
+<p>c. The <code>else</code> keyword executes if the "if-else" code block all evaluate to <code>False</code>.</p>
+</li>
+</ol>
+<h2 id="finalizing-the-code">Finalizing the Code</h2>
+<p>If you have followed the instructions correctly, then your <img alt="PythonIcon" src="../assets/python_icon_small.png" />Python file should look similar to the following:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kn">import</span> <span class="nn">random</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="n">options</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;rock&quot;</span><span class="p">,</span> <span class="s2">&quot;paper&quot;</span><span class="p">,</span> <span class="s2">&quot;scissor&quot;</span><span class="p">)</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="n">user_input</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Rock, paper, scissor? &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="n">computer_choice</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">options</span><span class="p">)</span>
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Computer chooses </span><span class="si">{</span><span class="n">computer_choice</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="k">if</span> <span class="n">user_input</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">options</span><span class="p">:</span>
+</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Funny error message here.&quot;</span><span class="p">)</span>
+</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a><span class="k">elif</span> <span class="n">user_input</span> <span class="o">==</span> <span class="n">computer_choice</span><span class="p">:</span>
+</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tie!&quot;</span><span class="p">)</span>
+</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a><span class="k">elif</span> <span class="n">user_input</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">computer_choice</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span>
+</span><span id="__span-11-13"><a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You Win!&quot;</span><span class="p">)</span>
+</span><span id="__span-11-14"><a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a><span class="k">elif</span> <span class="n">user_input</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> <span class="n">computer_choice</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+</span><span id="__span-11-15"><a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You Win!&quot;</span><span class="p">)</span>
+</span><span id="__span-11-16"><a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a><span class="k">elif</span> <span class="n">user_input</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="ow">and</span> <span class="n">computer_choice</span> <span class="o">==</span> <span class="n">options</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+</span><span id="__span-11-17"><a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You Win!&quot;</span><span class="p">)</span>
+</span><span id="__span-11-18"><a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a><span class="k">else</span><span class="p">:</span>
+</span><span id="__span-11-19"><a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You Lose!&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<div class="admonition notes">
+<p class="admonition-title">Notes</p>
+<p>You may add white space between blocks of code to help with code readability.</p>
+<p>For the example above, module imports, variable initializations, and the if-else code blocks were separated by a single line to make them easier to read and distinguish.</p>
+</div>
+<h2 id="running-the-game">Running the Game</h2>
+<p>This section will focus on running your game using the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.25 12a.75.75 0 0 1-.22.53l-2.75 2.75a.75.75 0 0 1-1.06-1.06L7.44 12 5.22 9.78a.75.75 0 1 1 1.06-1.06l2.75 2.75c.141.14.22.331.22.53Zm2 2a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Z"/><path d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"/></svg></span> terminal.</p>
+<ol>
+<li>
+<p>Save the code by <em>clicking</em> the "File" menu in the top left of notepad, and then <em>clicking</em> on "Save" as shown below:
+    <img alt="notepad save" src="../assets/codeS12.png" /></p>
+<div class="admonition notes">
+<p class="admonition-title">Notes</p>
+<p>You may also save the file by using the CTRL + S save shortcut on your keyboard.</p>
+</div>
+</li>
+<li>
+<p>Return to the terminal from the previous <img alt="📁" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f4c1.svg" title=":file_folder:" /> <a href="../Setting%20Up%20Your%20Project/">Setting Up Your Project</a> section.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Ensure that you are in the <code>rock_paper_scissor</code> directory.</p>
+<p>If you did not close the terminal from the previous section, you should still be in the <code>rock_paper_scissor</code> directory.</p>
+<p>If you closed the terminal, refer back to "Setting Up Your Project" under the "Navigating Directories" section <a href="../Setting%20Up%20Your%20Project/#navigating-directories">here</a>.</p>
+</div>
+</li>
+<li>
+<p>Run the program in the <code>rock_paper_scissor</code> directory by <em>typing</em> in one of the following two commands in the terminal:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>python rock_paper_scissor.py
+</span></code></pre></div>
+<p>or</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>python3 rock_paper_scissor.py
+</span></code></pre></div>
+</li>
+<li>
+<p>Enjoy your game!</p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>If everything is correct, the terminal should look like the image below:</p>
+<p><img alt="terminal for game" src="../assets/codeS15a.png" /></p>
+</div>
+<div class="admonition failure">
+<p class="admonition-title">Failure</p>
+<p>If there is a syntax error, then check which line can be found. For example, the picture below shows that the error is in line 17, and the error itself is around the <code>else</code> keyword. The error can be caused by a lack of indentation, which can lead to statements belonging to the wrong block of code.</p>
+<p><img alt="syntax error" src="../assets/codeS15b.png" /></p>
+</div>
+<div class="admonition failure">
+<p class="admonition-title">Failure</p>
+<p>If there is a name error and <code>random</code> is not defined, then it is an import error. Add <code>import random</code> as the first line of code to fix this issue.</p>
+<p><img alt="import error" src="../assets/codeS15c.png" /></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If your code does not run, please compare your code in the <a href="./#finalizing-the-code">finalized code section</a>.</p>
+</div>
+</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>By the end of this section, you will have successfully implemented the following concepts in Python:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Imported a Python module.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Created a command to get user input.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Generated random values.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Created a logic flow for a game.</li>
+</ul>
+<p>The next section will focus on uploading your project onto GitHub. Please proceed to <em>Uploading to GitHub</em>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Setting%20Up%20Your%20Project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Setting Up Your Project">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Setting Up Your Project
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Uploading%20to%20GitHub/" class="md-footer__link md-footer__link--next" aria-label="Next: Uploading to GitHub">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Uploading to GitHub
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.expand", "navigation.path", "navigation.footer", "content.code.copy", "content.code.select", "toc.integrate"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>
