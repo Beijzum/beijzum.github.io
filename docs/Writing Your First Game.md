@@ -10,7 +10,7 @@ This section will focus on coding a simple game of rock paper scissor in ![Pytho
 
 !!! warning
 
-    You must have the `rock_paper_scissor.py` file opened in notepad before proceeding.
+    You must have the `rock_paper_scissor.py` file opened in notepad before proceeding. You will be typing your code inside this file using notepad.
 
     Please read the typographical conventions [here](./index.md/#typographical-conventions) before continuing. Remember to press the "enter/return" key after typing the line(s) of code.
 
@@ -18,13 +18,13 @@ This section will focus on coding a simple game of rock paper scissor in ![Pytho
 
 This section will setup the variables that are needed for the game.
 
-1.  Import the random module by _typing_ the following:
+1.  Import the random module by _typing_ the following in your newly created `rock_paper_scissor.py` notepad file:
 
     ```py
     import random
     ```
 
-    a. The first line of code imports the `random` module, which possesses many functions for generating or manipulating random integers.
+    a. This first line of code imports the `random` module, which possesses many functions for generating or manipulating random integers.
 
     b. The `import` keyword allows you to use modules in your code. This allows you to reuse code that you (or others) have created in any project.
 
