@@ -169,7 +169,7 @@ This section focuses on connecting your local .git folder to the cloud :material
 
     !!! notes
 
-        You may have to refresh your rock_paper_scissor GitHub repository page to see your changes.
+        You may have to refresh your `rock_paper_scissor` GitHub repository page to see your changes.
 
 ## Conclusion
 
