@@ -53,11 +53,9 @@ This document uses the following style for presenting information:
     print("Hello World!")
     ```
 
-    a. You will be writing Python code in the notepad application.
+    a. You must write Python code in the notepad application.
 
-    b. You will press the "enter" or "return" key after typing in the code found in the code snippet. This creates a new line and prepares you for the next line of code.
-
-    c. For example, if you were instructed to _type_ the previously shown code snippet three times, then it should look like the following:
+    b. You must press the "enter" or "return" key after typing in the code found in the code snippet. This creates a new line and prepares you for the next line of code. For example, if you were instructed to _type_ the previously shown code snippet three times, then it should look like the following:
 
     ```py
     print("Hello World!")

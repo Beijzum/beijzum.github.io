@@ -18,7 +18,7 @@ This section will focus on coding a simple game of rock paper scissor in ![Pytho
 
 This section will setup the variables that are needed for the game.
 
-1.  Import the random module by _typing_ the following in your newly created `rock_paper_scissor.py` notepad file:
+1.  Import the `random` module by _typing_ the following in your newly created `rock_paper_scissor.py` notepad file:
 
     ```py
     import random
