@@ -37,9 +37,9 @@ The main sections of this document should be read in the order below:
 
 This document uses the following style for presenting information:
 
-1. When _clicking_ is mentioned, it means left-clicking on your mouse.
+-   When _clicking_ is mentioned, it means left-clicking on your mouse.
 
-2. _Typing_ in commands in regards to the terminal will look like the following:
+-   _Typing_ in commands in regards to the terminal will look like the following:
 
     ```
     Type these words
@@ -47,7 +47,7 @@ This document uses the following style for presenting information:
 
     a. You must press the "enter" or "return" key on your keyboard after typing the command to activate the command.
 
-3. Python code snippets will look like the following:
+-   Python code snippets will look like the following:
 
     ```py
     print("Hello World!")
@@ -63,13 +63,13 @@ This document uses the following style for presenting information:
     print("Hello World!")
     ```
 
-4. Directory and file names will look like the following:
+-   Directory and file names will look like the following:
 
     a. Directory names will look like `directory_name`.
 
     b. File names will look like `filename.extension` with the period designating the file's extension.
 
-5. Terminal commands and Python keywords mentioned outside of code blocks will look like the following:
+-   Terminal commands and Python keywords mentioned outside of code blocks will look like the following:
 
     a. Python keywords like "print()" will look like `print()`. Variable names like "user_input" will look like `user_input`.
 
